@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.foundation",
+    "module": "foundation",
+    "version": "1.0.0-beta08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-1.0.0-beta08.aar",
+          "url": "foundation-1.0.0-beta08.aar",
+          "size": 1164486,
+          "sha512": "2bd6a562c6d2ac6a409dcd7c169d11c8ef07dd46685470c9b2bc46fedb42f86dce4357b94074b3151c56a22ce74ddfadf2ab735959ac7c9eb684bd9df151bdc1",
+          "sha256": "b483f156a3177dd33f432403a7993e607f863c14427817d9487ba48768021aa5",
+          "sha1": "b466391f7274ff2720238665b0b2436a8320b278",
+          "md5": "61ff3b8d1300649b01f68d055eacfb23"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-1.0.0-beta08.aar",
+          "url": "foundation-1.0.0-beta08.aar",
+          "size": 1164486,
+          "sha512": "2bd6a562c6d2ac6a409dcd7c169d11c8ef07dd46685470c9b2bc46fedb42f86dce4357b94074b3151c56a22ce74ddfadf2ab735959ac7c9eb684bd9df151bdc1",
+          "sha256": "b483f156a3177dd33f432403a7993e607f863c14427817d9487ba48768021aa5",
+          "sha1": "b466391f7274ff2720238665b0b2436a8320b278",
+          "md5": "61ff3b8d1300649b01f68d055eacfb23"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "foundation-1.0.0-beta08-sources.jar",
+          "url": "foundation-1.0.0-beta08-sources.jar",
+          "size": 226886,
+          "sha512": "3065991c8cdacfef1b5ee6aee8690d194fbb735f6c4df213ea44b0a65107d7f7679e221094a89438e52de6a2486f26dab2f5c098bb8376077ec8082d6c537cf9",
+          "sha256": "90ab263b684d4f4a9e78e5efc35ce0675903123257f8acabb5cd9fb95c211f2c",
+          "sha1": "90654473249151ca3f9e4bcf79cb4cac269faee8",
+          "md5": "7c7c1a51702d4b3b10cf6b6c17ffb7a2"
+        }
+      ]
+    }
+  ]
+}

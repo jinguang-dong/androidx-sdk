@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-complications-data",
+    "version": "1.0.0-alpha15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-complications-data-1.0.0-alpha15.aar",
+          "url": "wear-complications-data-1.0.0-alpha15.aar",
+          "size": 247470,
+          "sha512": "d1ae93ab9c43a483682fadb70536f459d8fae82db564b3817b54a218a47678ee42802230dce92175ceeaeafed7b4868f238132d38ee2cfb03fbce506f5b74ad7",
+          "sha256": "88155d95b5d94af5a3261a47b1cde404dbd695da8447f8df9b3ac920ceff53d7",
+          "sha1": "9f730e43f702e7991aba2f62f9b753b73e5dd716",
+          "md5": "6573067c6f5c9dfe0927f6121c113a70"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-complications-data-1.0.0-alpha15.aar",
+          "url": "wear-complications-data-1.0.0-alpha15.aar",
+          "size": 247470,
+          "sha512": "d1ae93ab9c43a483682fadb70536f459d8fae82db564b3817b54a218a47678ee42802230dce92175ceeaeafed7b4868f238132d38ee2cfb03fbce506f5b74ad7",
+          "sha256": "88155d95b5d94af5a3261a47b1cde404dbd695da8447f8df9b3ac920ceff53d7",
+          "sha1": "9f730e43f702e7991aba2f62f9b753b73e5dd716",
+          "md5": "6573067c6f5c9dfe0927f6121c113a70"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-complications-data-1.0.0-alpha15-sources.jar",
+          "url": "wear-complications-data-1.0.0-alpha15-sources.jar",
+          "size": 57948,
+          "sha512": "2f75a64ac11a2a87a6e9d1987bcf27317c41eeb79bfbacb205aa7c87ae1f432be84b5c33d193adbd476b93e3bea7421c3d9137b41fe85d21806445fa6e54d560",
+          "sha256": "22ab51e88c77df8b40d2c30bea352c46e73ee2bf1a4b2ce791f730d84e24d763",
+          "sha1": "8d1e5d6e40e7d88475d232bb879108b7eeadba29",
+          "md5": "40b4e1a513fab226ac9be1f4273d623e"
+        }
+      ]
+    }
+  ]
+}

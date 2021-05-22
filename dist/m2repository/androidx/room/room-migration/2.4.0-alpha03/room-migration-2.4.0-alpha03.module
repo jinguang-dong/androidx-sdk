@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.room",
+    "module": "room-migration",
+    "version": "2.4.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "room-migration-2.4.0-alpha03.jar",
+          "url": "room-migration-2.4.0-alpha03.jar",
+          "size": 22451,
+          "sha512": "84c35744cec0eb7ebda00966b2b6bb5ce45245e44e17fba04037eca9cad00b32c2d8330c111d979c3103b593ff03c9ad5ee62be42f552c580ce4591b596de82c",
+          "sha256": "69776979e72b6253199eb400a2b667aa2c1892b9c0d83d6b77dad9e96815fbf3",
+          "sha1": "8287cb0a470af44b99b47fba912ce17b2da23dc0",
+          "md5": "9688ccd1b76c00ff96b4f10ca4d94e88"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-common",
+          "version": {
+            "requires": "2.4.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-migration-2.4.0-alpha03.jar",
+          "url": "room-migration-2.4.0-alpha03.jar",
+          "size": 22451,
+          "sha512": "84c35744cec0eb7ebda00966b2b6bb5ce45245e44e17fba04037eca9cad00b32c2d8330c111d979c3103b593ff03c9ad5ee62be42f552c580ce4591b596de82c",
+          "sha256": "69776979e72b6253199eb400a2b667aa2c1892b9c0d83d6b77dad9e96815fbf3",
+          "sha1": "8287cb0a470af44b99b47fba912ce17b2da23dc0",
+          "md5": "9688ccd1b76c00ff96b4f10ca4d94e88"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "room-migration-2.4.0-alpha03-sources.jar",
+          "url": "room-migration-2.4.0-alpha03-sources.jar",
+          "size": 17664,
+          "sha512": "3a4f7f276dbcc643505a04cbd958cea1289db321e936a17b4106ba760abf99d3d98574ba4dc45beea104ee776dc5b4ae43ce827cc6e853824b705eb3e73462b5",
+          "sha256": "a615a8cc329041ea792e33657f32da957dc2a4f7c5fc8f43c634c6a5ce4c9753",
+          "sha1": "1c77cc68b8f2f90a9f351170997680f833fb56bf",
+          "md5": "414a06a970d024ff1be08203e0165d7b"
+        }
+      ]
+    }
+  ]
+}

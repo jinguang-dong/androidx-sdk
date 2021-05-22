@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.camera",
+    "module": "camera-camera2-pipe",
+    "version": "1.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera-camera2-pipe-1.0.0-alpha01.aar",
+          "url": "camera-camera2-pipe-1.0.0-alpha01.aar",
+          "size": 488943,
+          "sha512": "352c9431531e14dd187769421db3c8e60c74d29b5543a78dd180f15078a7dbc5c625ae03d6d3b7e4583ac7514c6a8ddc7911b8c63606028cf252c7332f33a3a8",
+          "sha256": "2e9848bcd4e21c8c365e863c56f35d4f69c94c13e079c6c2c539d015c57e8549",
+          "sha1": "bb8782154e5b227e0ed37e38b198d4d961a51066",
+          "md5": "883183dd49febf9fce8e5c13449d4d6a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.13.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.35"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera-camera2-pipe-1.0.0-alpha01.aar",
+          "url": "camera-camera2-pipe-1.0.0-alpha01.aar",
+          "size": 488943,
+          "sha512": "352c9431531e14dd187769421db3c8e60c74d29b5543a78dd180f15078a7dbc5c625ae03d6d3b7e4583ac7514c6a8ddc7911b8c63606028cf252c7332f33a3a8",
+          "sha256": "2e9848bcd4e21c8c365e863c56f35d4f69c94c13e079c6c2c539d015c57e8549",
+          "sha1": "bb8782154e5b227e0ed37e38b198d4d961a51066",
+          "md5": "883183dd49febf9fce8e5c13449d4d6a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "camera-camera2-pipe-1.0.0-alpha01-sources.jar",
+          "url": "camera-camera2-pipe-1.0.0-alpha01-sources.jar",
+          "size": 107498,
+          "sha512": "8a1bd27ffb5ef4ac07d6ced6eb241338b2a82faf9f62c5c498e64d8f8e67e34353142b9b0099ad6a62a128b30f644313ec69190aac9ab972b4d0138b708db0eb",
+          "sha256": "afee386389dc4f4a58ee3f18e259e58dee88871226c17ba17a619b6ff3147e38",
+          "sha1": "41eb1998ee8aa1c2f38be004beb00db90b081898",
+          "md5": "2593ce7d7ae42c43a6c480ba2ff0f2bb"
+        }
+      ]
+    }
+  ]
+}

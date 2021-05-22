@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-watchface-data",
+    "version": "1.0.0-alpha15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.versionedparcelable",
+          "module": "versionedparcelable",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-complications-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-data-1.0.0-alpha15.aar",
+          "url": "wear-watchface-data-1.0.0-alpha15.aar",
+          "size": 208146,
+          "sha512": "5c13a2bdd3f41d7133e354ee08e0c4c1b9df92a1e42021f6b79671c92f4f1c4e27150e62185fc1fe8133140931e23f51a29bc80f252c96f3cfac06bde5d977cb",
+          "sha256": "376d06a8da3a29e9ea180aaf6869773af00b61c63aa06c4de19779fdbfac74c8",
+          "sha1": "dd52f51ffd006aa874c484b52cedf7327b73de98",
+          "md5": "4d88eea2b44890c052b40df138f7b6ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.versionedparcelable",
+          "module": "versionedparcelable",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-complications-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-data-1.0.0-alpha15.aar",
+          "url": "wear-watchface-data-1.0.0-alpha15.aar",
+          "size": 208146,
+          "sha512": "5c13a2bdd3f41d7133e354ee08e0c4c1b9df92a1e42021f6b79671c92f4f1c4e27150e62185fc1fe8133140931e23f51a29bc80f252c96f3cfac06bde5d977cb",
+          "sha256": "376d06a8da3a29e9ea180aaf6869773af00b61c63aa06c4de19779fdbfac74c8",
+          "sha1": "dd52f51ffd006aa874c484b52cedf7327b73de98",
+          "md5": "4d88eea2b44890c052b40df138f7b6ec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-watchface-data-1.0.0-alpha15-sources.jar",
+          "url": "wear-watchface-data-1.0.0-alpha15-sources.jar",
+          "size": 53427,
+          "sha512": "f8543ad7d9486f4a54cb103bee34c91c3d3e2d1c68694cb77880e29c4f77fca5b4649f96e3284a5b7309e2abe63e006d816709bcb3976f4eea9773468b8a05a4",
+          "sha256": "9206b1f42e66dfadf8dd780f6ac6b975c67a7e760a903119151ff2d3edfc8a58",
+          "sha1": "ba7c297f7a84e813e4875be236f0151075ad6201",
+          "md5": "3eee59d335d1dc8f08711bd07d7064de"
+        }
+      ]
+    }
+  ]
+}

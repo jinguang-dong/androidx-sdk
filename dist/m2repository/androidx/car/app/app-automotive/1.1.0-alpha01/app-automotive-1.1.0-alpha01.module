@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.car.app",
+    "module": "app-automotive",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.car.app",
+          "module": "app",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-automotive-1.1.0-alpha01.aar",
+          "url": "app-automotive-1.1.0-alpha01.aar",
+          "size": 86041,
+          "sha512": "9ca16640772eea3ed0e15e709621131f67bc9a835be6a4dfef3abfc323d6963e1f14cd073b044499ba70c4669f803b27b2f8a1d7ddfde042fd51f6c389235313",
+          "sha256": "d20f28a0032340e7f4bb8bf2140643c9ffaa05c2f8214238890b856cf4dca437",
+          "sha1": "bcdb1ca677b7a63751b13c9a701f902ace67dcbe",
+          "md5": "e1d2d419488d811ef6d0d432ceb091d3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.car.app",
+          "module": "app",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-automotive-1.1.0-alpha01.aar",
+          "url": "app-automotive-1.1.0-alpha01.aar",
+          "size": 86041,
+          "sha512": "9ca16640772eea3ed0e15e709621131f67bc9a835be6a4dfef3abfc323d6963e1f14cd073b044499ba70c4669f803b27b2f8a1d7ddfde042fd51f6c389235313",
+          "sha256": "d20f28a0032340e7f4bb8bf2140643c9ffaa05c2f8214238890b856cf4dca437",
+          "sha1": "bcdb1ca677b7a63751b13c9a701f902ace67dcbe",
+          "md5": "e1d2d419488d811ef6d0d432ceb091d3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "app-automotive-1.1.0-alpha01-sources.jar",
+          "url": "app-automotive-1.1.0-alpha01-sources.jar",
+          "size": 29550,
+          "sha512": "de745b58c12e41d0c28770d64087f8262eb5730ba610ac0349c26130b25ad35f504daf19314f38a4fc0bfbf424ce1902cd27194cfcfa645f9c97d2ba54a138c0",
+          "sha256": "13e2fd49e5e1d92f560ea40d5b76e5d9c623ff23b7b41db28db5459c283e15ca",
+          "sha1": "17ee80cb9dcc3d670acdd1f0527efe400d491e35",
+          "md5": "527c3fec5aae7c9f696a962adc114cac"
+        }
+      ]
+    }
+  ]
+}

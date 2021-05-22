@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.animation",
+    "module": "animation-core-samples",
+    "version": "1.0.0-beta08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "animation-core-samples-1.0.0-beta08.aar",
+          "url": "animation-core-samples-1.0.0-beta08.aar",
+          "size": 172110,
+          "sha512": "f30e10fd345851951e17531f9dbb1469c0b0a1f6cd454a966c247811806b5fb23bdd4f92ca00b57b1657a3a534771113e4c80e6b543f82500190080342cb6b5d",
+          "sha256": "6868ad2d637df23847d42ea5731b64b5d3a535cbdb0b0b32221eeb39241923cb",
+          "sha1": "84f9e857bd50135249230f18e06be2d142b61704",
+          "md5": "24e1762e9a5ac86e427ee987a31d3722"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-core-samples-1.0.0-beta08.aar",
+          "url": "animation-core-samples-1.0.0-beta08.aar",
+          "size": 172110,
+          "sha512": "f30e10fd345851951e17531f9dbb1469c0b0a1f6cd454a966c247811806b5fb23bdd4f92ca00b57b1657a3a534771113e4c80e6b543f82500190080342cb6b5d",
+          "sha256": "6868ad2d637df23847d42ea5731b64b5d3a535cbdb0b0b32221eeb39241923cb",
+          "sha1": "84f9e857bd50135249230f18e06be2d142b61704",
+          "md5": "24e1762e9a5ac86e427ee987a31d3722"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "animation-core-samples-1.0.0-beta08-sources.jar",
+          "url": "animation-core-samples-1.0.0-beta08-sources.jar",
+          "size": 14954,
+          "sha512": "2157fd15d8f1b74591e211c0a015cd596b362686623f372d3819134036b64c6b1269414f7f0ff332e7baa31a933fc4c3b58efcc066fec7f4f7f97e262b992e33",
+          "sha256": "a28cdd34e8b9be4dfe12e36f8e542095a8686d895ce6bbb029f0212bc0b05207",
+          "sha1": "37b2c7075424a9a4d3045c5c1b2dd0174039d30c",
+          "md5": "3c9b7f80ac552e22a293a98a3e2fd8d7"
+        }
+      ]
+    }
+  ]
+}

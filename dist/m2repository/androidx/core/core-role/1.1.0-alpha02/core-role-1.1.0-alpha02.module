@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.core",
+    "module": "core-role",
+    "version": "1.1.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "core-role-1.1.0-alpha02.aar",
+          "url": "core-role-1.1.0-alpha02.aar",
+          "size": 2319,
+          "sha512": "cb44c70c21a1608fe6631e00cfedf8eb6eec921e7cb9209e63c0bddccaccf0b862c72cf2feb9e996cd589e92af0191e7710458d3b384e1e641ca21118717fe75",
+          "sha256": "6d1268dbaf9fe3829a02624a660b76afc07fadee894b40fb20621189da03bce9",
+          "sha1": "174ad17014883f8b4aef6f0f7b1929d18ff8450d",
+          "md5": "c615c715539161f8d3e29d52bfe8f113"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-role-1.1.0-alpha02.aar",
+          "url": "core-role-1.1.0-alpha02.aar",
+          "size": 2319,
+          "sha512": "cb44c70c21a1608fe6631e00cfedf8eb6eec921e7cb9209e63c0bddccaccf0b862c72cf2feb9e996cd589e92af0191e7710458d3b384e1e641ca21118717fe75",
+          "sha256": "6d1268dbaf9fe3829a02624a660b76afc07fadee894b40fb20621189da03bce9",
+          "sha1": "174ad17014883f8b4aef6f0f7b1929d18ff8450d",
+          "md5": "c615c715539161f8d3e29d52bfe8f113"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-role-1.1.0-alpha02-sources.jar",
+          "url": "core-role-1.1.0-alpha02-sources.jar",
+          "size": 2734,
+          "sha512": "4b55606f112d5192a8f3ab95eca9f5db25fcabdc3d01745f639473c9d47698f6aa71b7a7acaaa86992c86a4e117ed1c6c3c4e5cc0fc0166422176df6de87f1a8",
+          "sha256": "429fdbd5ede7ca723650a53e12cc097f670715c180839ed43dca638cb64edf43",
+          "sha1": "b248ca539540725ef9431af00095d31f79dc73af",
+          "md5": "af2f91b6210a240fd6c51f2bcdf6236b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.vectordrawable",
+    "module": "vectordrawable-seekable",
+    "version": "1.0.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.vectordrawable",
+          "module": "vectordrawable",
+          "version": {
+            "requires": "1.2.0-alpha03"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-animation",
+          "version": {
+            "requires": "1.0.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectordrawable-seekable-1.0.0-alpha03.aar",
+          "url": "vectordrawable-seekable-1.0.0-alpha03.aar",
+          "size": 11362,
+          "sha512": "2ea44a52c0048ba8cd8f624a1978f7f822aa5eb64de258347e649fdfac3576ede27bb10aeda755ef80ae9c7e3e9347d09d32b2adec8d18aabbf2377bf271ae53",
+          "sha256": "d786abff109418cc0a798123e21d35da1a316e59b15e45e31942a2e51795fc3c",
+          "sha1": "bd1c1af593f9291938006e742e48186101837b08",
+          "md5": "d73c7e85834b857784bdfcc378ec16a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.vectordrawable",
+          "module": "vectordrawable",
+          "version": {
+            "requires": "1.2.0-alpha03"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-animation",
+          "version": {
+            "requires": "1.0.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vectordrawable-seekable-1.0.0-alpha03.aar",
+          "url": "vectordrawable-seekable-1.0.0-alpha03.aar",
+          "size": 11362,
+          "sha512": "2ea44a52c0048ba8cd8f624a1978f7f822aa5eb64de258347e649fdfac3576ede27bb10aeda755ef80ae9c7e3e9347d09d32b2adec8d18aabbf2377bf271ae53",
+          "sha256": "d786abff109418cc0a798123e21d35da1a316e59b15e45e31942a2e51795fc3c",
+          "sha1": "bd1c1af593f9291938006e742e48186101837b08",
+          "md5": "d73c7e85834b857784bdfcc378ec16a9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vectordrawable-seekable-1.0.0-alpha03-sources.jar",
+          "url": "vectordrawable-seekable-1.0.0-alpha03-sources.jar",
+          "size": 7454,
+          "sha512": "da19fc19f5b5da8659cb5fbaf8831f4c2d53f34721214ff93e8f62d711f6ed24f77204247e43670ad2e1a19c4b7d1f205a5658d849d3ea4b6348cf69d4c35cee",
+          "sha256": "9b607f0fe3f33b5ad953aa261857aca52dd9a6fead2f62faa754b76dd32fc158",
+          "sha1": "d248ecbd728a5adf747e56c625af4ab8526597c8",
+          "md5": "a8d14c38c72d6a822882013e346af71b"
+        }
+      ]
+    }
+  ]
+}

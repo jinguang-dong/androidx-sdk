@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.viewpager",
+    "module": "viewpager",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.customview",
+          "module": "customview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "viewpager-1.1.0-alpha01.aar",
+          "url": "viewpager-1.1.0-alpha01.aar",
+          "size": 53873,
+          "sha512": "ad3af446d956cacfff5c2246363f111aa4f455d1465484fab190e56df759085cf65664cf961047356a1fac9915d350ad985d00a307e1061948e0510c76c1938a",
+          "sha256": "9080f434cb26668b852b1cc3fb23225af861e0bb3979052a6190e58607f18401",
+          "sha1": "ff69306301802ca87b79f7a08acdae997ad7926a",
+          "md5": "88b0ce19b011ebbb79940f00e0606d38"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.customview",
+          "module": "customview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "viewpager-1.1.0-alpha01.aar",
+          "url": "viewpager-1.1.0-alpha01.aar",
+          "size": 53873,
+          "sha512": "ad3af446d956cacfff5c2246363f111aa4f455d1465484fab190e56df759085cf65664cf961047356a1fac9915d350ad985d00a307e1061948e0510c76c1938a",
+          "sha256": "9080f434cb26668b852b1cc3fb23225af861e0bb3979052a6190e58607f18401",
+          "sha1": "ff69306301802ca87b79f7a08acdae997ad7926a",
+          "md5": "88b0ce19b011ebbb79940f00e0606d38"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "viewpager-1.1.0-alpha01-sources.jar",
+          "url": "viewpager-1.1.0-alpha01-sources.jar",
+          "size": 38501,
+          "sha512": "aa5824e658f78cd28254bcce5c03841a6eb8b2f58a11fe3c1a0467d5d8a75d325204a2ae2434b48f0d507d944471754974fb95c7384d1af3ea5cdbadd90acc9e",
+          "sha256": "1f7defe8318e6642a51b2460f4c8ed06bd241ca593888047b1352ada91875cb1",
+          "sha1": "6d26edd750b213f3c713ec726e61cd5b8663ec13",
+          "md5": "948d03568eb251e19458badcd6bbf5c1"
+        }
+      ]
+    }
+  ]
+}

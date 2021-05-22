@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.interpolator",
+    "module": "interpolator",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interpolator-1.1.0-alpha01.aar",
+          "url": "interpolator-1.1.0-alpha01.aar",
+          "size": 8712,
+          "sha512": "2c5d9e65d366604ec2ce4667fc0cdb8657514b9c8ef8589f2ee827892a4080fd381b34f3fa945f7b33bba309a903d445db39b6768a5e71272a6c90c7dd7e0d05",
+          "sha256": "38df03fd7ba474489a2aa87abf14192c86b9ac8d92b08ca62c057dd42f765fbd",
+          "sha1": "0ce91f416bc78386a2edc8d33b236a31578d41a5",
+          "md5": "9ff065cfa16c7e39de4533c42afd6851"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "interpolator-1.1.0-alpha01.aar",
+          "url": "interpolator-1.1.0-alpha01.aar",
+          "size": 8712,
+          "sha512": "2c5d9e65d366604ec2ce4667fc0cdb8657514b9c8ef8589f2ee827892a4080fd381b34f3fa945f7b33bba309a903d445db39b6768a5e71272a6c90c7dd7e0d05",
+          "sha256": "38df03fd7ba474489a2aa87abf14192c86b9ac8d92b08ca62c057dd42f765fbd",
+          "sha1": "0ce91f416bc78386a2edc8d33b236a31578d41a5",
+          "md5": "9ff065cfa16c7e39de4533c42afd6851"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "interpolator-1.1.0-alpha01-sources.jar",
+          "url": "interpolator-1.1.0-alpha01-sources.jar",
+          "size": 6822,
+          "sha512": "abdb6a93039e9091fcf9d3e28335dcb969e246afd89ff526296c99aaaabf7755fe4d5f63b721667a6f93250b513669be45b0a99daaa2c6d5d99635feb5eec2cf",
+          "sha256": "210ad755327ef203e8fca76731d0f486666db492fa48143f57538b05b888f970",
+          "sha1": "049ebb2dc2131eb683839dd03aeb09f724995dce",
+          "md5": "5f1cabacd3145bb1f9ca2b4589844631"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.recyclerview",
+    "module": "recyclerview-selection",
+    "version": "1.2.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recyclerview-selection-1.2.0-alpha02.aar",
+          "url": "recyclerview-selection-1.2.0-alpha02.aar",
+          "size": 100554,
+          "sha512": "4d19af9f767343a7d8a4c3b585b46367265d94297059e1069f75960185911199957ebbc880bd4a4d2125d871625ea6f2ab2b5d81d91cf42fe01675337017250d",
+          "sha256": "c2d907f86d1f9781a4a0d6e8c79663c1ae4d8f5d795832d7fba69c6a12c9f103",
+          "sha1": "3872f3421332b9dcb5f4cee71b74f42054912f1e",
+          "md5": "f5a0549b5b917efcfd0266dc7fb83fa6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recyclerview-selection-1.2.0-alpha02.aar",
+          "url": "recyclerview-selection-1.2.0-alpha02.aar",
+          "size": 100554,
+          "sha512": "4d19af9f767343a7d8a4c3b585b46367265d94297059e1069f75960185911199957ebbc880bd4a4d2125d871625ea6f2ab2b5d81d91cf42fe01675337017250d",
+          "sha256": "c2d907f86d1f9781a4a0d6e8c79663c1ae4d8f5d795832d7fba69c6a12c9f103",
+          "sha1": "3872f3421332b9dcb5f4cee71b74f42054912f1e",
+          "md5": "f5a0549b5b917efcfd0266dc7fb83fa6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "recyclerview-selection-1.2.0-alpha02-sources.jar",
+          "url": "recyclerview-selection-1.2.0-alpha02-sources.jar",
+          "size": 86635,
+          "sha512": "b426122b1870f812071471055b6dd30d9c76111a493271672d7374979969f24571c4fb8124700202877fb7399f458d4c7c1df24aed090a5147de8429c076ffc2",
+          "sha256": "2a5b239681932798cfc787ea5c8a9277b453d67aa68fefa6ee1a147032026b14",
+          "sha1": "372b4864b77336fa59839e7b80d58122e9ac2ba5",
+          "md5": "e7caa7d62156e4c4184b1b33dbed9c98"
+        }
+      ]
+    }
+  ]
+}

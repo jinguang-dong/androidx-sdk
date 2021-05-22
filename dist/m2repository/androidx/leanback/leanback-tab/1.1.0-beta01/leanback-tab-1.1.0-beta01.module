@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.leanback",
+    "module": "leanback-tab",
+    "version": "1.1.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager",
+          "module": "viewpager",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "leanback-tab-1.1.0-beta01.aar",
+          "url": "leanback-tab-1.1.0-beta01.aar",
+          "size": 5802,
+          "sha512": "253c27e2cda421d4be3a55ac819a64d95d7c80d6f5cd7c3c985168676642097cf981c278cbdccf8da0f9ab8bbe63710507f0a70a594fc51e06e837997a6524f1",
+          "sha256": "01abdca4c33c504f2d749c5821410889f81f2ae2da2416621082b593d458144c",
+          "sha1": "3f97ab8ff29c082759af9c7c2dedc240d50c8584",
+          "md5": "5a36bfe7fe13500389c0b45ce1738c08"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager",
+          "module": "viewpager",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "leanback-tab-1.1.0-beta01.aar",
+          "url": "leanback-tab-1.1.0-beta01.aar",
+          "size": 5802,
+          "sha512": "253c27e2cda421d4be3a55ac819a64d95d7c80d6f5cd7c3c985168676642097cf981c278cbdccf8da0f9ab8bbe63710507f0a70a594fc51e06e837997a6524f1",
+          "sha256": "01abdca4c33c504f2d749c5821410889f81f2ae2da2416621082b593d458144c",
+          "sha1": "3f97ab8ff29c082759af9c7c2dedc240d50c8584",
+          "md5": "5a36bfe7fe13500389c0b45ce1738c08"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "leanback-tab-1.1.0-beta01-sources.jar",
+          "url": "leanback-tab-1.1.0-beta01-sources.jar",
+          "size": 4609,
+          "sha512": "cabbd3c480c232de9eddb4e0135663a93b9c6d42d259b2e14f31fe444308d6175ef5987a65e2c409246a6d3e6f06733cc62dcb45a3ff3efb127282b8916200a1",
+          "sha256": "c0452ccd9599df2ccb40cfdddbe78178477495dcdb3478b2bef4370571d77e03",
+          "sha1": "c2053d36024e6fb561af57c3c7a34209ff70b8f4",
+          "md5": "d1c3dabb4d59b28ef8804a1dace0585d"
+        }
+      ]
+    }
+  ]
+}

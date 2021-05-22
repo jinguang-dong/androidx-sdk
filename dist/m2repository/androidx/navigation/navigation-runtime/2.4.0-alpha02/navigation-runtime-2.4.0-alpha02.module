@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.navigation",
+    "module": "navigation-runtime",
+    "version": "2.4.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common",
+          "version": {
+            "requires": "2.4.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-runtime-2.4.0-alpha02.aar",
+          "url": "navigation-runtime-2.4.0-alpha02.aar",
+          "size": 105838,
+          "sha512": "4ee5e316243b1a244d6fb780432bb548a3701814512e4e964a74a83f1be59e2e51c02b402040aaa28b9a23bdcbda7cb0fe60f56275e784538abacd5ac5b28ef4",
+          "sha256": "fd8af9d8047fa63c70bc5020ff886069bf427110715d94401b6aeabb338f24c6",
+          "sha1": "23f9eb519e7968242df4845466048f1cc0150120",
+          "md5": "2d1435674570123293d10292269fb92a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common",
+          "version": {
+            "requires": "2.4.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-runtime-2.4.0-alpha02.aar",
+          "url": "navigation-runtime-2.4.0-alpha02.aar",
+          "size": 105838,
+          "sha512": "4ee5e316243b1a244d6fb780432bb548a3701814512e4e964a74a83f1be59e2e51c02b402040aaa28b9a23bdcbda7cb0fe60f56275e784538abacd5ac5b28ef4",
+          "sha256": "fd8af9d8047fa63c70bc5020ff886069bf427110715d94401b6aeabb338f24c6",
+          "sha1": "23f9eb519e7968242df4845466048f1cc0150120",
+          "md5": "2d1435674570123293d10292269fb92a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "navigation-runtime-2.4.0-alpha02-sources.jar",
+          "url": "navigation-runtime-2.4.0-alpha02-sources.jar",
+          "size": 41634,
+          "sha512": "ad86c6a860cd1be59a496de6bf031d768602d7da3774373c660068aeb0042704f44725a94cc030216c1701ba747efead3910a34ac285b1d6166269a768a03445",
+          "sha256": "d6d407d9ef78374588f0e6893451063bd72420ebf7e7c4339141a390c982867f",
+          "sha1": "601171598283176c65087d7f684f8f84fdcfe054",
+          "md5": "b3a9de6a6bfae99717fb84862d4cc306"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-phone-interactions",
+    "version": "1.0.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-phone-interactions-1.0.0-alpha05.aar",
+          "url": "wear-phone-interactions-1.0.0-alpha05.aar",
+          "size": 62247,
+          "sha512": "76354119feaf53b509dd906fb86cbf3587654e77b9e66a6c8ca4add2e1acdfd48a91559b04ec9bb3636f29cfb7101e2f37deef5ff19eafe9d21a887b6885d4f5",
+          "sha256": "30af33f503c16356fac7d8417fba2f46deee80cc1021385f75389e70f71a2c54",
+          "sha1": "850adce99b85c72a961af0d729a545abebe4f5ae",
+          "md5": "5784c4f9402f4213bf5bfc778d52f8ba"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-phone-interactions-1.0.0-alpha05.aar",
+          "url": "wear-phone-interactions-1.0.0-alpha05.aar",
+          "size": 62247,
+          "sha512": "76354119feaf53b509dd906fb86cbf3587654e77b9e66a6c8ca4add2e1acdfd48a91559b04ec9bb3636f29cfb7101e2f37deef5ff19eafe9d21a887b6885d4f5",
+          "sha256": "30af33f503c16356fac7d8417fba2f46deee80cc1021385f75389e70f71a2c54",
+          "sha1": "850adce99b85c72a961af0d729a545abebe4f5ae",
+          "md5": "5784c4f9402f4213bf5bfc778d52f8ba"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-phone-interactions-1.0.0-alpha05-sources.jar",
+          "url": "wear-phone-interactions-1.0.0-alpha05-sources.jar",
+          "size": 21134,
+          "sha512": "f3029047e89ac0a7bb5dac8dbe21120074a8b3304166cf5e773a2e30b7bc8df73e4dd98ca62a0a5da2788568be6beea108d017f76c8bf2e8c29356a0da961e5f",
+          "sha256": "2ffb703da5ed23db809b5c9a1b4a4a735826b03f544c548dc89a58c197f9df8e",
+          "sha1": "4a9c70739802446f229d901b7223ebf3223434e5",
+          "md5": "47811164191775f1b4a8bc35bae3cd77"
+        }
+      ]
+    }
+  ]
+}

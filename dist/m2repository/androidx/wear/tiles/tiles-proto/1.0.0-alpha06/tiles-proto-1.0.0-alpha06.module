@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear.tiles",
+    "module": "tiles-proto",
+    "version": "1.0.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tiles-proto-1.0.0-alpha06.jar",
+          "url": "tiles-proto-1.0.0-alpha06.jar",
+          "size": 1179823,
+          "sha512": "93e6e766470439815ba019ca1e594c89e96353da80b59ca64edcb6a0d21ba875bc05539d5745f18fb0234303948eaa614d8159c71eacdbd0318dee6266a5113b",
+          "sha256": "9a9e037ebff232ceaffb190f8ecc370df70072ce620e7cb7e8e187a27a89a6f8",
+          "sha1": "ddcf6897d3d25dfa58ae7f9ff68e085f1a98d191",
+          "md5": "c0d63ce80b2ed5f9e3be1c4f79f3c4fe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tiles-proto-1.0.0-alpha06.jar",
+          "url": "tiles-proto-1.0.0-alpha06.jar",
+          "size": 1179823,
+          "sha512": "93e6e766470439815ba019ca1e594c89e96353da80b59ca64edcb6a0d21ba875bc05539d5745f18fb0234303948eaa614d8159c71eacdbd0318dee6266a5113b",
+          "sha256": "9a9e037ebff232ceaffb190f8ecc370df70072ce620e7cb7e8e187a27a89a6f8",
+          "sha1": "ddcf6897d3d25dfa58ae7f9ff68e085f1a98d191",
+          "md5": "c0d63ce80b2ed5f9e3be1c4f79f3c4fe"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tiles-proto-1.0.0-alpha06-sources.jar",
+          "url": "tiles-proto-1.0.0-alpha06-sources.jar",
+          "size": 121016,
+          "sha512": "830076b1f143fb0e2875fd53c63cd17de476f77d4653c86f657d78590a0412b59f74c1371210b32a25c60ba1e1fecba461114b15754621ca86ad1d39cadf65f3",
+          "sha256": "8286c76e949ea6ea83db8f03ae722d06b8234a7fc55cf0fb231c805a1cb7db5e",
+          "sha1": "ebb5c4fbb7a3c7ac85f698b54ec939c96078ae97",
+          "md5": "d6a4b1ecf8bab4acbfeb7fcc0b3bdc31"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tiles-proto-1.0.0-alpha06.jar",
+          "url": "tiles-proto-1.0.0-alpha06.jar",
+          "size": 1179823,
+          "sha512": "93e6e766470439815ba019ca1e594c89e96353da80b59ca64edcb6a0d21ba875bc05539d5745f18fb0234303948eaa614d8159c71eacdbd0318dee6266a5113b",
+          "sha256": "9a9e037ebff232ceaffb190f8ecc370df70072ce620e7cb7e8e187a27a89a6f8",
+          "sha1": "ddcf6897d3d25dfa58ae7f9ff68e085f1a98d191",
+          "md5": "c0d63ce80b2ed5f9e3be1c4f79f3c4fe"
+        }
+      ]
+    }
+  ]
+}

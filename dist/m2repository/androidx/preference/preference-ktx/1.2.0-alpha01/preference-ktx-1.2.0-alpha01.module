@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.preference",
+    "module": "preference-ktx",
+    "version": "1.2.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "reason": "Mirror preference dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.2.4"
+          },
+          "reason": "Mirror preference dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "preference-ktx-1.2.0-alpha01.aar",
+          "url": "preference-ktx-1.2.0-alpha01.aar",
+          "size": 6444,
+          "sha512": "ce7c680e47ce3b94235884782ac47f782d03019c809779c9307162e6a6fdcf8b4271e9e384c1be2c8b5bc5d451462a2e0c88d150d7e4acb4ada2e35b9a2de98b",
+          "sha256": "cc2144113b3358fe1274ed2ac608c6de37e562accc9bbfaa6419f58c8523b542",
+          "sha1": "55ffc4e2ab3500caf36696cb154374bb38886043",
+          "md5": "dad7c9fee83e4070632003f247d68989"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "reason": "Mirror preference dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.2.4"
+          },
+          "reason": "Mirror preference dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "preference-ktx-1.2.0-alpha01.aar",
+          "url": "preference-ktx-1.2.0-alpha01.aar",
+          "size": 6444,
+          "sha512": "ce7c680e47ce3b94235884782ac47f782d03019c809779c9307162e6a6fdcf8b4271e9e384c1be2c8b5bc5d451462a2e0c88d150d7e4acb4ada2e35b9a2de98b",
+          "sha256": "cc2144113b3358fe1274ed2ac608c6de37e562accc9bbfaa6419f58c8523b542",
+          "sha1": "55ffc4e2ab3500caf36696cb154374bb38886043",
+          "md5": "dad7c9fee83e4070632003f247d68989"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "preference-ktx-1.2.0-alpha01-sources.jar",
+          "url": "preference-ktx-1.2.0-alpha01-sources.jar",
+          "size": 1811,
+          "sha512": "4655d368a1fcee6b4c7c0b3313bbb1a84ef8532d44015e2d2f829338e1b3c78f6eeb66a16716582eace2512e64b52ddc79c6027a8258f0e18f2127186625ad4b",
+          "sha256": "6c487dd6c351c8b6afaca1d76531244477630587f7aca3fbbfa267cbcbcfd2f9",
+          "sha1": "cd958fff6c81d7d93b9dbd48c417cf9f82e09414",
+          "md5": "e8a45972c520a6d255908b3d68d21558"
+        }
+      ]
+    }
+  ]
+}

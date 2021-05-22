@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.car.app",
+    "module": "app",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-1.1.0-alpha01.aar",
+          "url": "app-1.1.0-alpha01.aar",
+          "size": 350638,
+          "sha512": "a89ddb80b2e2a4dda33862c5a7d0ec1a6b19412cb7cfab79ef74826f87fe5544ec506d304800618946615d02ebbc86b57a8ad918aee5d18b85769f1d092f58e6",
+          "sha256": "51f652eacbaa7a8a182188dd37b577b7265cdf7354b1ac2a2b949e0c817e9171",
+          "sha1": "8b7567b9f04193ea59e171b91a722a9b32f46d17",
+          "md5": "5c568a40965d22644dc416bc6b36e54a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-1.1.0-alpha01.aar",
+          "url": "app-1.1.0-alpha01.aar",
+          "size": 350638,
+          "sha512": "a89ddb80b2e2a4dda33862c5a7d0ec1a6b19412cb7cfab79ef74826f87fe5544ec506d304800618946615d02ebbc86b57a8ad918aee5d18b85769f1d092f58e6",
+          "sha256": "51f652eacbaa7a8a182188dd37b577b7265cdf7354b1ac2a2b949e0c817e9171",
+          "sha1": "8b7567b9f04193ea59e171b91a722a9b32f46d17",
+          "md5": "5c568a40965d22644dc416bc6b36e54a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "app-1.1.0-alpha01-sources.jar",
+          "url": "app-1.1.0-alpha01-sources.jar",
+          "size": 263938,
+          "sha512": "5570b15f07199d1d5a820c8286ad7c4e78e75db23725344bf76b0412af1f5705d7d2bfdda6f462dc78ce4c570cca9c3cef8d7351698370a2dd4cb2440bb4736e",
+          "sha256": "5b464f4be58c1ffba685a9465f3d5103041e1be03d6da22fa1c9d759287ffa22",
+          "sha1": "e1253df86a5bc104668d66290045ce22ce7b3143",
+          "md5": "46f4c76f3975a33c31fab92536d4a7a7"
+        }
+      ]
+    }
+  ]
+}

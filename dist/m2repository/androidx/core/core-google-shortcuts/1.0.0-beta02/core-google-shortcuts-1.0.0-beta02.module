@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.core",
+    "module": "core-google-shortcuts",
+    "version": "1.0.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.6.0-beta02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-google-shortcuts-1.0.0-beta02.aar",
+          "url": "core-google-shortcuts-1.0.0-beta02.aar",
+          "size": 13283,
+          "sha512": "8706381830c6c254b0f9e25b9a5b3fdf3af2e34f0ce97e252bc5bd2e843ed21669fdf2932330887381787fc71af5557580551d4169915a23e06980675e0e7221",
+          "sha256": "b3ad1bcb13bed884271bdbfe458f0b2c1b8a1d50a2a7374a33ed965a2fa26305",
+          "sha1": "8bdb4d634443ce2d6e5077658d6ccd725a4c5d73",
+          "md5": "102662b60c881663ec9028e70c58185b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.6.0-beta02"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-appindexing",
+          "version": {
+            "requires": "19.2.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-google-shortcuts-1.0.0-beta02.aar",
+          "url": "core-google-shortcuts-1.0.0-beta02.aar",
+          "size": 13283,
+          "sha512": "8706381830c6c254b0f9e25b9a5b3fdf3af2e34f0ce97e252bc5bd2e843ed21669fdf2932330887381787fc71af5557580551d4169915a23e06980675e0e7221",
+          "sha256": "b3ad1bcb13bed884271bdbfe458f0b2c1b8a1d50a2a7374a33ed965a2fa26305",
+          "sha1": "8bdb4d634443ce2d6e5077658d6ccd725a4c5d73",
+          "md5": "102662b60c881663ec9028e70c58185b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-google-shortcuts-1.0.0-beta02-sources.jar",
+          "url": "core-google-shortcuts-1.0.0-beta02-sources.jar",
+          "size": 11390,
+          "sha512": "f80f76f2c8f7b912b8d10d2c697d4e57ee4c56a2ff3da4aafe092bd32533fa960c829648a7e2ea7e440f7da666829e15b1a24b01cb8979e7c790baeda2923d39",
+          "sha256": "a2c8c7d622440604327f10e8a6d557e8fdd86e47d2290466f68698c41ecaa297",
+          "sha1": "b26698f37f36230ec5eb5d14533aef6a8ac6f239",
+          "md5": "bc071bfa81dcc7e67eaddfe2d0daee1c"
+        }
+      ]
+    }
+  ]
+}

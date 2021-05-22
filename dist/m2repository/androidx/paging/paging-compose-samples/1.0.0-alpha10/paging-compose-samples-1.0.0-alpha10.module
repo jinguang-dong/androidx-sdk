@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.paging",
+    "module": "paging-compose-samples",
+    "version": "1.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "paging-compose-samples-1.0.0-alpha10.aar",
+          "url": "paging-compose-samples-1.0.0-alpha10.aar",
+          "size": 27607,
+          "sha512": "7a7069dcb2397cab437d5160a424da24df7084ec517b61977d983f35a647aaa4635974068d8b35d5f8669cc8380fa786f92b981a5486e7bdfa80720215e5cd97",
+          "sha256": "4b5a0be430a7a476da80fffbc84188cc0f0cd2809663cbd0c064d9480bca5ef8",
+          "sha1": "7e5a71e733e1ea8746d0d5038edff802e21b3e3a",
+          "md5": "fb6c09192b7e799d2086de5ac184d9c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-compose",
+          "version": {
+            "requires": "1.0.0-alpha10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-compose-samples-1.0.0-alpha10.aar",
+          "url": "paging-compose-samples-1.0.0-alpha10.aar",
+          "size": 27607,
+          "sha512": "7a7069dcb2397cab437d5160a424da24df7084ec517b61977d983f35a647aaa4635974068d8b35d5f8669cc8380fa786f92b981a5486e7bdfa80720215e5cd97",
+          "sha256": "4b5a0be430a7a476da80fffbc84188cc0f0cd2809663cbd0c064d9480bca5ef8",
+          "sha1": "7e5a71e733e1ea8746d0d5038edff802e21b3e3a",
+          "md5": "fb6c09192b7e799d2086de5ac184d9c9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "paging-compose-samples-1.0.0-alpha10-sources.jar",
+          "url": "paging-compose-samples-1.0.0-alpha10-sources.jar",
+          "size": 2720,
+          "sha512": "38b0bccd1d39fdefd8ac08dfcf6af551a629e7b6168faf0aae1c31e6a8ab310d2ca3e1dd0cb0ef5e07894d64929aa24d2a49bf76d9875c4999db658fd340c448",
+          "sha256": "079ef1a6c3032a27a4ad0ad709a8b2fdc7badc6b56ba0b72aea4278845d98fe8",
+          "sha1": "274d022f90189ac5ddff6a34778949540b93bd95",
+          "md5": "dbd1e06217de86dd24de39144045ec1a"
+        }
+      ]
+    }
+  ]
+}

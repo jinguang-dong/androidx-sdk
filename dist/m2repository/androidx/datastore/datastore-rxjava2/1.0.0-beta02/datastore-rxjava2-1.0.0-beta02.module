@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.datastore",
+    "module": "datastore-rxjava2",
+    "version": "1.0.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore",
+          "version": {
+            "requires": "1.0.0-beta02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-rxjava2-1.0.0-beta02.aar",
+          "url": "datastore-rxjava2-1.0.0-beta02.aar",
+          "size": 34368,
+          "sha512": "85391c0f3e9579127eb4962c22f78f0c942c4166e0a6079da856b9317e9532f80fb39e321eb15a701d5b3fd464321b97a0572b99cfed526e0b37fc64de585c4d",
+          "sha256": "ad231d08d57f3673628a7336f7566483c0074c40d7c718934cdfe0cd7fbe31be",
+          "sha1": "dec7c2f8df78b52efa8fdd9486dde93f7b082482",
+          "md5": "9d4e80cb24c6d9202d10231ff39d3997"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore",
+          "version": {
+            "requires": "1.0.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-rx2",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-rxjava2-1.0.0-beta02.aar",
+          "url": "datastore-rxjava2-1.0.0-beta02.aar",
+          "size": 34368,
+          "sha512": "85391c0f3e9579127eb4962c22f78f0c942c4166e0a6079da856b9317e9532f80fb39e321eb15a701d5b3fd464321b97a0572b99cfed526e0b37fc64de585c4d",
+          "sha256": "ad231d08d57f3673628a7336f7566483c0074c40d7c718934cdfe0cd7fbe31be",
+          "sha1": "dec7c2f8df78b52efa8fdd9486dde93f7b082482",
+          "md5": "9d4e80cb24c6d9202d10231ff39d3997"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "datastore-rxjava2-1.0.0-beta02-sources.jar",
+          "url": "datastore-rxjava2-1.0.0-beta02-sources.jar",
+          "size": 9858,
+          "sha512": "e3e96a87fb940eb7d4c2db122b5f48985abe666598b6a6029677eb9547684a37bda1a039a549e25dc7fae6fc28a28b43afd37b7b17a2ff36d032ba76a5cdc9a4",
+          "sha256": "a57737632b39c49890e9917d3cb7fa8fb4ccf5ba7bb3319d5d8b4f1a29a1c5bb",
+          "sha1": "b67960b6210fd36ede6385a1a6985aa250f3b140",
+          "md5": "57e42f8458caa30883f6daad29341446"
+        }
+      ]
+    }
+  ]
+}

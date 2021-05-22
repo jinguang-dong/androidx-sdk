@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.paging",
+    "module": "paging-guava",
+    "version": "3.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.1.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "29.0-android"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-guava-3.1.0-alpha01.aar",
+          "url": "paging-guava-3.1.0-alpha01.aar",
+          "size": 21573,
+          "sha512": "a05ad74484800db439dcdf19efe460055d01c8cdfd4c07ec01f97fbd5eaad96fb04bf9433db2488833df6d70b305e3749c403241b99a32ea8babd8fee029e624",
+          "sha256": "b4f16ce7154b53d001a46a327585a8403594311238d3e663032e1fee70f6e8a8",
+          "sha1": "ae6cfb985d75dada8fc2d160d14c238456f6d35e",
+          "md5": "a19d1f0e287a441848db927cfb544add"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.1.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "29.0-android"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-guava",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-guava-3.1.0-alpha01.aar",
+          "url": "paging-guava-3.1.0-alpha01.aar",
+          "size": 21573,
+          "sha512": "a05ad74484800db439dcdf19efe460055d01c8cdfd4c07ec01f97fbd5eaad96fb04bf9433db2488833df6d70b305e3749c403241b99a32ea8babd8fee029e624",
+          "sha256": "b4f16ce7154b53d001a46a327585a8403594311238d3e663032e1fee70f6e8a8",
+          "sha1": "ae6cfb985d75dada8fc2d160d14c238456f6d35e",
+          "md5": "a19d1f0e287a441848db927cfb544add"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "paging-guava-3.1.0-alpha01-sources.jar",
+          "url": "paging-guava-3.1.0-alpha01-sources.jar",
+          "size": 4782,
+          "sha512": "d36dde206962bf78c74f211c58960a4922fab1f8201a16e7ac2554d5282e5fb0dc7243126b4a549c940d145e0c0fb8bfa26a6c69c56a1284e67137313874c3f0",
+          "sha256": "dc4a1a8306597163e1a71c44ab1171570466f602f50f141218c1c9e0f2ed965b",
+          "sha1": "e3f9c4ebf6e3fbdbbba81f584e082736dd9558f7",
+          "md5": "6c83ea4c47102f28cf07ccae92244852"
+        }
+      ]
+    }
+  ]
+}

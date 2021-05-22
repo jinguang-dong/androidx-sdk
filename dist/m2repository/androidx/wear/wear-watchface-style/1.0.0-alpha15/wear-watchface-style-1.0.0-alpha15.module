@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-watchface-style",
+    "version": "1.0.0-alpha15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-style-1.0.0-alpha15.aar",
+          "url": "wear-watchface-style-1.0.0-alpha15.aar",
+          "size": 67344,
+          "sha512": "53e9a2802e9ba3c3f8ebea02cbd43b63ec2425ce6cdeb719593be382c0d3b621a7e51a530e1ceedaeee200279951f440f2a30221019f46261cf9a035b2f97690",
+          "sha256": "2f8d6b9850255d610d21f9ab7b39b1af05a84e8d6db3708f04bfec673669deeb",
+          "sha1": "f74f13db5ba7ba1c0624e749bc951f8aeb398d6f",
+          "md5": "be0b92f174198e3130a0e77601d57fee"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-style-1.0.0-alpha15.aar",
+          "url": "wear-watchface-style-1.0.0-alpha15.aar",
+          "size": 67344,
+          "sha512": "53e9a2802e9ba3c3f8ebea02cbd43b63ec2425ce6cdeb719593be382c0d3b621a7e51a530e1ceedaeee200279951f440f2a30221019f46261cf9a035b2f97690",
+          "sha256": "2f8d6b9850255d610d21f9ab7b39b1af05a84e8d6db3708f04bfec673669deeb",
+          "sha1": "f74f13db5ba7ba1c0624e749bc951f8aeb398d6f",
+          "md5": "be0b92f174198e3130a0e77601d57fee"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-watchface-style-1.0.0-alpha15-sources.jar",
+          "url": "wear-watchface-style-1.0.0-alpha15-sources.jar",
+          "size": 11739,
+          "sha512": "521f592e86875e2e3feb40cfd999c8bdee8ce9928596cf9d2c543bf9cb98dcafecb51b5e341cf75b33a94469ec344833a159b8fe515fab59e8c48f2e26d7a0d2",
+          "sha256": "f10f4cf44bf43a51e89101f006016210b9c65e75ba53ab51fa8fe964383060da",
+          "sha1": "e09c974d6be61988795f38ff4f5ae53f9bb26f9e",
+          "md5": "1e178b9c83e9ebb2ac61385aa872a019"
+        }
+      ]
+    }
+  ]
+}

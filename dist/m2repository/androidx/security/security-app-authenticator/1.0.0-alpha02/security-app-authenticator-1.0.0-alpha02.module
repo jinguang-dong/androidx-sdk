@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.security",
+    "module": "security-app-authenticator",
+    "version": "1.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "security-app-authenticator-1.0.0-alpha02.aar",
+          "url": "security-app-authenticator-1.0.0-alpha02.aar",
+          "size": 24911,
+          "sha512": "fb9eb04923451726470423530fefeb01e919c01febbe572d1c05bb0c137dd9adadd91b384a57fa47a8a6ba5fd734c09078bdb21e7c3f44f895ed9840d283ceaf",
+          "sha256": "33d9647df37deb996ebe8928f9fecad0be3f59c1140bd627a5a67ef35943abee",
+          "sha1": "86a6d5cf1accfe3fe10488e3ef9d0602a520696a",
+          "md5": "793bf470870ac6b3de70509257f7531a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "security-app-authenticator-1.0.0-alpha02.aar",
+          "url": "security-app-authenticator-1.0.0-alpha02.aar",
+          "size": 24911,
+          "sha512": "fb9eb04923451726470423530fefeb01e919c01febbe572d1c05bb0c137dd9adadd91b384a57fa47a8a6ba5fd734c09078bdb21e7c3f44f895ed9840d283ceaf",
+          "sha256": "33d9647df37deb996ebe8928f9fecad0be3f59c1140bd627a5a67ef35943abee",
+          "sha1": "86a6d5cf1accfe3fe10488e3ef9d0602a520696a",
+          "md5": "793bf470870ac6b3de70509257f7531a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "security-app-authenticator-1.0.0-alpha02-sources.jar",
+          "url": "security-app-authenticator-1.0.0-alpha02-sources.jar",
+          "size": 14462,
+          "sha512": "f15c7e46b545e9cf89272bbc057632f1594a458e560b46ab259d247ee8d7a35fd54106387d42003668b67fbb39824dcfccdda47482007bcfcc21acaaf0abf429",
+          "sha256": "888ba96a1652dc6f3adedff0f98acf74cf9ab385b71e298254536ddefa4b9719",
+          "sha1": "d2e86d45920a7179ed022ed2d9cf992ff7a93497",
+          "md5": "3e969e45f0a3ca8e675530f5850280e8"
+        }
+      ]
+    }
+  ]
+}

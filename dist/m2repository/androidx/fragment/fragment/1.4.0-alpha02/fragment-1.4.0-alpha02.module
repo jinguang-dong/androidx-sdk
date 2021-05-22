@@ -1,0 +1,236 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.fragment",
+    "module": "fragment",
+    "version": "1.4.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager",
+          "module": "viewpager",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-1.4.0-alpha02.aar",
+          "url": "fragment-1.4.0-alpha02.aar",
+          "size": 304349,
+          "sha512": "a0d293a7ef3a23f585e2ed7ae2224c2d378d0cb75fa0d07b494bac0b30b1d0fc8063f067175e9f5c4a5fef4a953c9d89e611c3e8f760538026ee607cc9c28c9f",
+          "sha256": "eb68fdff56ca3fba020341f7df260f837e809ef896c25dd57af5b627ea871fbc",
+          "sha1": "6894420aa98fdce5fa068ca0d81ff1dc1d9336d4",
+          "md5": "ff14a07c76576b796731d58d3dbc731b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager",
+          "module": "viewpager",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-1.4.0-alpha02.aar",
+          "url": "fragment-1.4.0-alpha02.aar",
+          "size": 304349,
+          "sha512": "a0d293a7ef3a23f585e2ed7ae2224c2d378d0cb75fa0d07b494bac0b30b1d0fc8063f067175e9f5c4a5fef4a953c9d89e611c3e8f760538026ee607cc9c28c9f",
+          "sha256": "eb68fdff56ca3fba020341f7df260f837e809ef896c25dd57af5b627ea871fbc",
+          "sha1": "6894420aa98fdce5fa068ca0d81ff1dc1d9336d4",
+          "md5": "ff14a07c76576b796731d58d3dbc731b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fragment-1.4.0-alpha02-sources.jar",
+          "url": "fragment-1.4.0-alpha02-sources.jar",
+          "size": 181124,
+          "sha512": "18e62fce687232d4f8ee4979037a751a389c321ec64796849ab37da1a87d5a3d00548fd41b7a65b56eaf34ead79e9ba95dfc798bc969072a6317db0e2b6875d6",
+          "sha256": "7fc48ea2312a0a16b533bba54e386e18dc9ee9dbfa24bf5787bf8c73584a068a",
+          "sha1": "3f7ff32daddbd0f005062ba877ded33f2824f3f9",
+          "md5": "36d2e839785edc1d597d1f3bf2baeb23"
+        }
+      ]
+    }
+  ]
+}

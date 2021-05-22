@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.localbroadcastmanager",
+    "module": "localbroadcastmanager",
+    "version": "1.1.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "localbroadcastmanager-1.1.0-alpha02.aar",
+          "url": "localbroadcastmanager-1.1.0-alpha02.aar",
+          "size": 7695,
+          "sha512": "7a0f87caa1f088787b3e6d14847e684539408d624a8bb76d7abdc1cefb5925b1030703f300e4e2485dc83fc18becaaa1453b8d0ebfb56775c7c4eac846742294",
+          "sha256": "76542073c3d74aed8bff422a6ed5518c26242b155fea2ea8b0ac8409401ae000",
+          "sha1": "b6c7e4dc7fdb140a174308d3cec75e2239dffcd4",
+          "md5": "621c24ab45322db81801172c63a8d4b8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "localbroadcastmanager-1.1.0-alpha02.aar",
+          "url": "localbroadcastmanager-1.1.0-alpha02.aar",
+          "size": 7695,
+          "sha512": "7a0f87caa1f088787b3e6d14847e684539408d624a8bb76d7abdc1cefb5925b1030703f300e4e2485dc83fc18becaaa1453b8d0ebfb56775c7c4eac846742294",
+          "sha256": "76542073c3d74aed8bff422a6ed5518c26242b155fea2ea8b0ac8409401ae000",
+          "sha1": "b6c7e4dc7fdb140a174308d3cec75e2239dffcd4",
+          "md5": "621c24ab45322db81801172c63a8d4b8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "localbroadcastmanager-1.1.0-alpha02-sources.jar",
+          "url": "localbroadcastmanager-1.1.0-alpha02-sources.jar",
+          "size": 4258,
+          "sha512": "f3d696d691223075ad783956838b786a23b3d67215e603f56f69592cb2389e9f2c4000a98e60a97bce5b3c28995320fbb4389b9a40fa1a17e93efe1931286e41",
+          "sha256": "2927f3301f149b5fddd4dd5b061e29b37dafd5002feee0ba5c05122e581c0fd3",
+          "sha1": "ef61cea8b36ddcc40a17c5b6daec1687badd1368",
+          "md5": "de2a2b4f26ff5b3d9413efb309bc043b"
+        }
+      ]
+    }
+  ]
+}

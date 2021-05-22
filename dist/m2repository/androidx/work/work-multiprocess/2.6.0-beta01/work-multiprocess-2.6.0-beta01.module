@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.work",
+    "module": "work-multiprocess",
+    "version": "2.6.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.6.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "work-multiprocess-2.6.0-beta01.aar",
+          "url": "work-multiprocess-2.6.0-beta01.aar",
+          "size": 98025,
+          "sha512": "009d70241c5e2acdefa895527ab47d38f05115734289eeed0cbf223e69b0e61ba78fac06fc0d03b4234e2d0a3120c130425c94e5c2d1a0abe549728bd2971b76",
+          "sha256": "70b07f560aa2d35cd90b1e1d6643b1968123f1070d26f2ee3cf458a47adf12fd",
+          "sha1": "a0f4d26370a89c4b38fa8c88888cb905f218cc8f",
+          "md5": "3ed77add4b9e18978a12524b67129da3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.6.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "work-multiprocess-2.6.0-beta01.aar",
+          "url": "work-multiprocess-2.6.0-beta01.aar",
+          "size": 98025,
+          "sha512": "009d70241c5e2acdefa895527ab47d38f05115734289eeed0cbf223e69b0e61ba78fac06fc0d03b4234e2d0a3120c130425c94e5c2d1a0abe549728bd2971b76",
+          "sha256": "70b07f560aa2d35cd90b1e1d6643b1968123f1070d26f2ee3cf458a47adf12fd",
+          "sha1": "a0f4d26370a89c4b38fa8c88888cb905f218cc8f",
+          "md5": "3ed77add4b9e18978a12524b67129da3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "work-multiprocess-2.6.0-beta01-sources.jar",
+          "url": "work-multiprocess-2.6.0-beta01-sources.jar",
+          "size": 44901,
+          "sha512": "90903c4fdb9f82098ecdbbc86f8f1fce16f3e6c36012e707afabc08ecfba67c0b3777ba5897a1a10ddb6e8a5f366b677ea6e68b6119a4e85782fdc6d5bea8d87",
+          "sha256": "fc97131fcc4b91c564301f941afe3e3f0fca0926195d5bd73f3ea5265974480a",
+          "sha1": "f441a588761903ba5345e09c67ad69df69fa8547",
+          "md5": "d7049907fc01a041f5106490df2679cb"
+        }
+      ]
+    }
+  ]
+}

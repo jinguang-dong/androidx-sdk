@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-remote-interactions",
+    "version": "1.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-remote-interactions-1.0.0-alpha04.aar",
+          "url": "wear-remote-interactions-1.0.0-alpha04.aar",
+          "size": 8254,
+          "sha512": "6f03920b739e2a0608abec2da2a210245a26ac7f3196244b584d92f44d4f7f97527efdc11f24a72c2acdc46c0a46eafe7a823e3d31af469adf859db7e64b3857",
+          "sha256": "1b4a165c66a0147f8b3080450bad5ea64573a5a1e00d36e45f5cfa34c97f74a2",
+          "sha1": "ed9fae5164aa50fc446ca7b1987afcedb1b86474",
+          "md5": "3403e4bf8ed835ba6b1517aca05894a6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-basement",
+          "version": {
+            "requires": "17.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-remote-interactions-1.0.0-alpha04.aar",
+          "url": "wear-remote-interactions-1.0.0-alpha04.aar",
+          "size": 8254,
+          "sha512": "6f03920b739e2a0608abec2da2a210245a26ac7f3196244b584d92f44d4f7f97527efdc11f24a72c2acdc46c0a46eafe7a823e3d31af469adf859db7e64b3857",
+          "sha256": "1b4a165c66a0147f8b3080450bad5ea64573a5a1e00d36e45f5cfa34c97f74a2",
+          "sha1": "ed9fae5164aa50fc446ca7b1987afcedb1b86474",
+          "md5": "3403e4bf8ed835ba6b1517aca05894a6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-remote-interactions-1.0.0-alpha04-sources.jar",
+          "url": "wear-remote-interactions-1.0.0-alpha04-sources.jar",
+          "size": 4372,
+          "sha512": "0193d2a5c9f17e85f5f03fb3c98a61046305316e10a595b2f7250fd5306f5a028a60d697f994804564b439eae98dcdff168dd67911b5f4a1a4761ab8c5acf090",
+          "sha256": "dc693771bddb22fe680cdf1ebdd0532e5264c36292fe43a2c7ac50538db11389",
+          "sha1": "f63dfcb7c40462c945a21e77336a265cf168d341",
+          "md5": "03ee8a06109aae2c2e0a82fd750dcb70"
+        }
+      ]
+    }
+  ]
+}

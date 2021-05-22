@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.textclassifier",
+    "module": "textclassifier",
+    "version": "1.0.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "textclassifier-1.0.0-alpha03.aar",
+          "url": "textclassifier-1.0.0-alpha03.aar",
+          "size": 277773,
+          "sha512": "085a10f180dcbdac68ce1e2ff1020cb4318a9265d201bec5920ddd0aa9121f8f5e85c2eef0e4950dd363baec7a2fe35a103809fdc1d45017dd42a8bdc6cd784f",
+          "sha256": "8c34a5f1d1edb24b5db6a6b46ca1871f575c1fae1f2537a768eda511c9b51087",
+          "sha1": "fb9668d5edef616376670aa86597212766fa572f",
+          "md5": "919fb81fdba2c335f29943963e9920f7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "textclassifier-1.0.0-alpha03.aar",
+          "url": "textclassifier-1.0.0-alpha03.aar",
+          "size": 277773,
+          "sha512": "085a10f180dcbdac68ce1e2ff1020cb4318a9265d201bec5920ddd0aa9121f8f5e85c2eef0e4950dd363baec7a2fe35a103809fdc1d45017dd42a8bdc6cd784f",
+          "sha256": "8c34a5f1d1edb24b5db6a6b46ca1871f575c1fae1f2537a768eda511c9b51087",
+          "sha1": "fb9668d5edef616376670aa86597212766fa572f",
+          "md5": "919fb81fdba2c335f29943963e9920f7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "textclassifier-1.0.0-alpha03-sources.jar",
+          "url": "textclassifier-1.0.0-alpha03-sources.jar",
+          "size": 81472,
+          "sha512": "30c162b02f66c389964a4d4998527e4686161e47dadab1744f6ec600eedf514aa1e30086c0f13dc78c463e63e3f07cb97ae24f75d55b59101df13e7407719bbb",
+          "sha256": "4e81573cae60d04560bb9592d74a1d60348d38b44872ae687ac1c3869ca6fd20",
+          "sha1": "3312e126172ce834b104340501685d96692ea46b",
+          "md5": "8a263abe4fdb0fea04665099c5acc7d1"
+        }
+      ]
+    }
+  ]
+}

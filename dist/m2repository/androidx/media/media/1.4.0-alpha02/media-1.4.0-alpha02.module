@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.media",
+    "module": "media",
+    "version": "1.4.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media-1.4.0-alpha02.aar",
+          "url": "media-1.4.0-alpha02.aar",
+          "size": 328084,
+          "sha512": "750f93950870351211088550024bbed35ea3d1ff374b2afed842970359dc7cf30a4c0c56ed8d36bab6d0beeb3eda2a7f6d0f03a1b45671f862d35fd467333249",
+          "sha256": "23dcff90bd35f62d50a4ad46db02fa08bb7ff0bd90e5e5237755eecc3b1a7897",
+          "sha1": "863606c2f9b72f7778da5f42849465e532c13429",
+          "md5": "8eaa53f94bb4ec017fa1417144f74f2f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media-1.4.0-alpha02.aar",
+          "url": "media-1.4.0-alpha02.aar",
+          "size": 328084,
+          "sha512": "750f93950870351211088550024bbed35ea3d1ff374b2afed842970359dc7cf30a4c0c56ed8d36bab6d0beeb3eda2a7f6d0f03a1b45671f862d35fd467333249",
+          "sha256": "23dcff90bd35f62d50a4ad46db02fa08bb7ff0bd90e5e5237755eecc3b1a7897",
+          "sha1": "863606c2f9b72f7778da5f42849465e532c13429",
+          "md5": "8eaa53f94bb4ec017fa1417144f74f2f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "media-1.4.0-alpha02-sources.jar",
+          "url": "media-1.4.0-alpha02-sources.jar",
+          "size": 141648,
+          "sha512": "515bd75c55542f32160deeb839ab4dc7eed654d0e1367d416735886712dde5d4831223b6c4a76a96b79d9607991674a00a079cbb4b4cf32de6e2d7548e595e70",
+          "sha256": "aec3713972cb67d4088a39f7fdf8a80bdbd71a08e1c40137bbac8303f79773a2",
+          "sha1": "0c495e645d8ec79c5d20814f2648676c80e100dd",
+          "md5": "c6af6e1e255b7eacd0254545020bbdfb"
+        }
+      ]
+    }
+  ]
+}

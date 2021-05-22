@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.core",
+    "module": "core-appdigest",
+    "version": "1.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-appdigest-1.0.0-alpha01.aar",
+          "url": "core-appdigest-1.0.0-alpha01.aar",
+          "size": 15015,
+          "sha512": "1beb449c677c2f5e5647aa08094ef7489c7b4be699b970b3cc78a1334f58156749b3d0348d82194acf88d271f4da6a0d2bd9fd8fe881bbc26c6e4efcafb1fbad",
+          "sha256": "b8de69d20426aa3889625a6431c6aa366c22aa83649c4e9c7e32bc8325c49152",
+          "sha1": "1f5c9a98fcae01f26bba33f991b1780e5dd59298",
+          "md5": "1d2b30a3d071c49f448a22fc89f0d18a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.concurrent",
+          "module": "concurrent-futures",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-appdigest-1.0.0-alpha01.aar",
+          "url": "core-appdigest-1.0.0-alpha01.aar",
+          "size": 15015,
+          "sha512": "1beb449c677c2f5e5647aa08094ef7489c7b4be699b970b3cc78a1334f58156749b3d0348d82194acf88d271f4da6a0d2bd9fd8fe881bbc26c6e4efcafb1fbad",
+          "sha256": "b8de69d20426aa3889625a6431c6aa366c22aa83649c4e9c7e32bc8325c49152",
+          "sha1": "1f5c9a98fcae01f26bba33f991b1780e5dd59298",
+          "md5": "1d2b30a3d071c49f448a22fc89f0d18a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-appdigest-1.0.0-alpha01-sources.jar",
+          "url": "core-appdigest-1.0.0-alpha01-sources.jar",
+          "size": 9690,
+          "sha512": "6c3cd46dd2a35702d615f594fc316fb87dba3322c52238762ed8ba06774615bc4b85a6428f3925632e40c92fe7ade21ed363b06f2620f2b2d4b96dbe66c772a7",
+          "sha256": "a8485927552c5c345753003c62163a247f86ef5158cccf4a33e89230bb8b7521",
+          "sha1": "6389109f1f022db053d5fa9616cda6a1633ccca8",
+          "md5": "dd21c8b267d891414d0ffe6939283594"
+        }
+      ]
+    }
+  ]
+}

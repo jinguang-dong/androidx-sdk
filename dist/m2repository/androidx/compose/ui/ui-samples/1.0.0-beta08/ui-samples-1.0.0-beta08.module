@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-samples",
+    "version": "1.0.0-beta08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-samples-1.0.0-beta08.aar",
+          "url": "ui-samples-1.0.0-beta08.aar",
+          "size": 214439,
+          "sha512": "ed8d4e22f337b783e82b50c726be289e5d5cbaab186cfa67ec92e5df6112cac4dcc656b91c6800ee72011333037a8ecd681f04c38f30c6049d11aa181eba821a",
+          "sha256": "c1621f59523fe646200d38edf50547b501917b35d67a4db314edff68743b1b4c",
+          "sha1": "84ddf5f4414d34f37f6c93f91e2eaf60907c0df3",
+          "md5": "202144c72ab4afd47fde386e906a69bc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-samples-1.0.0-beta08.aar",
+          "url": "ui-samples-1.0.0-beta08.aar",
+          "size": 214439,
+          "sha512": "ed8d4e22f337b783e82b50c726be289e5d5cbaab186cfa67ec92e5df6112cac4dcc656b91c6800ee72011333037a8ecd681f04c38f30c6049d11aa181eba821a",
+          "sha256": "c1621f59523fe646200d38edf50547b501917b35d67a4db314edff68743b1b4c",
+          "sha1": "84ddf5f4414d34f37f6c93f91e2eaf60907c0df3",
+          "md5": "202144c72ab4afd47fde386e906a69bc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-samples-1.0.0-beta08-sources.jar",
+          "url": "ui-samples-1.0.0-beta08-sources.jar",
+          "size": 25584,
+          "sha512": "65e6b5790f0c8fc5918e5dc2f964c474b28be0c2f527c2ad367c5424f3b1a9b5d05faa7cecd209150aa7f86140819116b5151a7629954606f3e6ebe161e201b3",
+          "sha256": "fc7cee6838bbf05b1a69f1a6e76ccd89dc647e2fa9cd1ded7e17a678f661bb90",
+          "sha1": "bfaf2e4608497b2df0eb11ee5d6a75740c2316d8",
+          "md5": "41b4fada7edf83a49f48727d34829afd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.emoji2",
+    "module": "emoji2-views-helper",
+    "version": "1.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emoji2-views-helper-1.0.0-alpha02.aar",
+          "url": "emoji2-views-helper-1.0.0-alpha02.aar",
+          "size": 21603,
+          "sha512": "ad3e4e1b3d9466dd4041fcae04d23a28a83fc048eaec7f8a6b1822580c16e7af2580a36991a12c080cb392cf76a6b64042d9b0539e8559095b03da1ddfccbd76",
+          "sha256": "5bba00518919f78711ab3686dbfb8871b67a52d6a19038bed0ededbde22881df",
+          "sha1": "6add7df3467af6a3860072cdaa4f09551a4ea7a8",
+          "md5": "f24969d6002865191abfeb9118775f2f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.emoji2",
+          "module": "emoji2",
+          "version": {
+            "requires": "1.0.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emoji2-views-helper-1.0.0-alpha02.aar",
+          "url": "emoji2-views-helper-1.0.0-alpha02.aar",
+          "size": 21603,
+          "sha512": "ad3e4e1b3d9466dd4041fcae04d23a28a83fc048eaec7f8a6b1822580c16e7af2580a36991a12c080cb392cf76a6b64042d9b0539e8559095b03da1ddfccbd76",
+          "sha256": "5bba00518919f78711ab3686dbfb8871b67a52d6a19038bed0ededbde22881df",
+          "sha1": "6add7df3467af6a3860072cdaa4f09551a4ea7a8",
+          "md5": "f24969d6002865191abfeb9118775f2f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "emoji2-views-helper-1.0.0-alpha02-sources.jar",
+          "url": "emoji2-views-helper-1.0.0-alpha02-sources.jar",
+          "size": 16740,
+          "sha512": "671315ba6f9dcb6228149dc46c6aced8fc70617b746cebbd8d7b4ce0c6e540a16567191e2420b9ac7517a043525dc0d372d505d42c4d99920ddc930b882010ef",
+          "sha256": "dd9fa0b6a802bd367d621606ad254c693fe7d33a27e5850c8349089ae66df072",
+          "sha1": "491d83b6cc3f9f0e03dbe65b0368b5cbee9548a9",
+          "md5": "2ce19e592cf0567a5e5d57525b0bc8e1"
+        }
+      ]
+    }
+  ]
+}

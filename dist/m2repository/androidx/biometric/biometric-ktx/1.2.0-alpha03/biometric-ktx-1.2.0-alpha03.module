@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.biometric",
+    "module": "biometric-ktx",
+    "version": "1.2.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.2.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "biometric-ktx-1.2.0-alpha03.aar",
+          "url": "biometric-ktx-1.2.0-alpha03.aar",
+          "size": 29881,
+          "sha512": "867d0fc89fd8d2d457ade233f266c61cba7b3fbfabba53364928a5079e0715a8c24b1dd87bdb4e84ed6ee406ab82e5c76dbb3e68216cb9dce5cb396eeb9f82af",
+          "sha256": "a6b7425d19204618397648a8d34a3d3f1a3f2dc23eea006834bc9e0b1fb92875",
+          "sha1": "315bc30c02fd58102b11023ca69771d24e71dc21",
+          "md5": "624175bc5e914987e7a796c2a1e059cb"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.2.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "biometric-ktx-1.2.0-alpha03.aar",
+          "url": "biometric-ktx-1.2.0-alpha03.aar",
+          "size": 29881,
+          "sha512": "867d0fc89fd8d2d457ade233f266c61cba7b3fbfabba53364928a5079e0715a8c24b1dd87bdb4e84ed6ee406ab82e5c76dbb3e68216cb9dce5cb396eeb9f82af",
+          "sha256": "a6b7425d19204618397648a8d34a3d3f1a3f2dc23eea006834bc9e0b1fb92875",
+          "sha1": "315bc30c02fd58102b11023ca69771d24e71dc21",
+          "md5": "624175bc5e914987e7a796c2a1e059cb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "biometric-ktx-1.2.0-alpha03-sources.jar",
+          "url": "biometric-ktx-1.2.0-alpha03-sources.jar",
+          "size": 11993,
+          "sha512": "bc4e7e97e85efdfd6ec70b3358cd250068128de31f5b9493fc04b7e3ee2f37bdde9be73db1722476e05f26df3a2dd796e283f3b53c9d3d8e18b8274bf2d4aa11",
+          "sha256": "01f9378f7bfdeb54c0379a62464c453245e98089aa585f71658873e4d74ab289",
+          "sha1": "f1f17192342379968f075fb00c5413417e903f77",
+          "md5": "cb3ed96df2c8d9bf4e6fd02c12bc0241"
+        }
+      ]
+    }
+  ]
+}

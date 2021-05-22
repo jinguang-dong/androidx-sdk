@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.material",
+    "module": "material-ripple",
+    "version": "1.0.0-beta08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-1.0.0-beta08.aar",
+          "url": "material-ripple-1.0.0-beta08.aar",
+          "size": 73298,
+          "sha512": "28db74d1caf3408f2db6c27c86eb1b4712b843a96aa996082e7bcb20314a12daa8a2cc18ef338f9700f7ca45cceb1d398345ad3a2c71fd19183d20d68c3d76d7",
+          "sha256": "f6a565b7a4f24e0c6cf13f3423487eb2d13909531b612106cb3ce17aeba74b44",
+          "sha1": "e16efcc1499719633bba3970cb524abb786dffdd",
+          "md5": "2c7a7bebeba5030a2251f52d15bdcdf1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-1.0.0-beta08.aar",
+          "url": "material-ripple-1.0.0-beta08.aar",
+          "size": 73298,
+          "sha512": "28db74d1caf3408f2db6c27c86eb1b4712b843a96aa996082e7bcb20314a12daa8a2cc18ef338f9700f7ca45cceb1d398345ad3a2c71fd19183d20d68c3d76d7",
+          "sha256": "f6a565b7a4f24e0c6cf13f3423487eb2d13909531b612106cb3ce17aeba74b44",
+          "sha1": "e16efcc1499719633bba3970cb524abb786dffdd",
+          "md5": "2c7a7bebeba5030a2251f52d15bdcdf1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "material-ripple-1.0.0-beta08-sources.jar",
+          "url": "material-ripple-1.0.0-beta08-sources.jar",
+          "size": 20879,
+          "sha512": "f92579ab0f8f2593a23d9e32ed161c373f98cc91477ad3435aca9abfc1dd83ca0ca776b0fd506df3637b251e37a13e8ee314e8d4dfbbaab00840159eed988a96",
+          "sha256": "5ade96293be1256dac63688de71fe4c96fe2511bbefdf0553c3a78e973176f94",
+          "sha1": "8c5418d65e867b46b657063245e28eafb2b5f94e",
+          "md5": "c69b5e98114ae6d55f3898e13a3a12f9"
+        }
+      ]
+    }
+  ]
+}

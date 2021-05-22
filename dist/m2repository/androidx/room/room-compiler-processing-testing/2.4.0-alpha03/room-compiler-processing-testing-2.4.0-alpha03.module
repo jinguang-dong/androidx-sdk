@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.room",
+    "module": "room-compiler-processing-testing",
+    "version": "2.4.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-compiler-processing",
+          "version": {
+            "requires": "2.4.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-compiler-processing-testing-2.4.0-alpha03.jar",
+          "url": "room-compiler-processing-testing-2.4.0-alpha03.jar",
+          "size": 98304,
+          "sha512": "a2006cf97db7dc09fc2e90c7e22e0b14b4ff37374005a09c1306f5fb26dcec6dca175758095910001be455dac3c31847eb1cc657073468450ba3b681e0f741ab",
+          "sha256": "ae91f99d553079361093a0e1e3db1a8009fd77531f73883dc8ae1daa3071e9ce",
+          "sha1": "78ad0c04623efb0a7d030e76c147d57fe532acd9",
+          "md5": "0b3eac4615a85dd8b6c7d3c7d5ba3a8c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.5.0-1.0.0-alpha10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing",
+          "version": {
+            "requires": "1.5.0-1.0.0-alpha10"
+          }
+        },
+        {
+          "group": "com.google.testing.compile",
+          "module": "compile-testing",
+          "version": {
+            "requires": "0.18"
+          }
+        },
+        {
+          "group": "com.github.tschuchortdev",
+          "module": "kotlin-compile-testing-ksp",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-compiler-embeddable",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-daemon-embeddable",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-annotation-processing-embeddable",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-compiler-processing",
+          "version": {
+            "requires": "2.4.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-compiler-processing-testing-2.4.0-alpha03.jar",
+          "url": "room-compiler-processing-testing-2.4.0-alpha03.jar",
+          "size": 98304,
+          "sha512": "a2006cf97db7dc09fc2e90c7e22e0b14b4ff37374005a09c1306f5fb26dcec6dca175758095910001be455dac3c31847eb1cc657073468450ba3b681e0f741ab",
+          "sha256": "ae91f99d553079361093a0e1e3db1a8009fd77531f73883dc8ae1daa3071e9ce",
+          "sha1": "78ad0c04623efb0a7d030e76c147d57fe532acd9",
+          "md5": "0b3eac4615a85dd8b6c7d3c7d5ba3a8c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "room-compiler-processing-testing-2.4.0-alpha03-sources.jar",
+          "url": "room-compiler-processing-testing-2.4.0-alpha03-sources.jar",
+          "size": 27058,
+          "sha512": "0a6fcb46f5ca0cd59d013d6613937c88c6fa439cc3cb5d656522de357cb369db210be2facf09843dfbc6fe2650e66b33ca71f1152c5d73aa1d639d47c4fd4f8c",
+          "sha256": "446a1813ad8079345b1ee7684db2f544f6f01e6fdf2b51d46592d922b2910d37",
+          "sha1": "9dac9c38d983d413bf7421ed1c06b560e9b06c12",
+          "md5": "a26a7e15028655dcc8dd7118dd3e7785"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-input",
+    "version": "1.1.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-input-1.1.0-alpha03.aar",
+          "url": "wear-input-1.1.0-alpha03.aar",
+          "size": 114876,
+          "sha512": "68a56f1c38d60ef693fa257610e46d5fd69c64c113ff1ecc33c471db10b41bf0d992ae7f61ee70e64679ddf3f512db8c01405167a2f6f4f67d88c03f51aa018e",
+          "sha256": "1842f24484c946b7e5be9cd399f93e8be79f1c3ced379cff5d5a1fef75fbd965",
+          "sha1": "018afee222b00454bd12e8dc19112ae0fcae0bb5",
+          "md5": "5098890614edcb4388fd96a0e4fe351b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-input-1.1.0-alpha03.aar",
+          "url": "wear-input-1.1.0-alpha03.aar",
+          "size": 114876,
+          "sha512": "68a56f1c38d60ef693fa257610e46d5fd69c64c113ff1ecc33c471db10b41bf0d992ae7f61ee70e64679ddf3f512db8c01405167a2f6f4f67d88c03f51aa018e",
+          "sha256": "1842f24484c946b7e5be9cd399f93e8be79f1c3ced379cff5d5a1fef75fbd965",
+          "sha1": "018afee222b00454bd12e8dc19112ae0fcae0bb5",
+          "md5": "5098890614edcb4388fd96a0e4fe351b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-input-1.1.0-alpha03-sources.jar",
+          "url": "wear-input-1.1.0-alpha03-sources.jar",
+          "size": 13056,
+          "sha512": "64a3470920c59f14839c92961d7d6df20bfe8c825cfdbed62867bc5972170a11757b44d2ff3ab8f984059d3126ab109aa863c8a76b7d288eb8d773b9b3fe368e",
+          "sha256": "980eafc3c6adb684128d7b8537fdfeceff2efbdf320ea2cc70c5b005e922e567",
+          "sha1": "c962bd17f1d0ad35618555c7f65938be18df8b6f",
+          "md5": "02fcc77b8979a8e92e691693764be454"
+        }
+      ]
+    }
+  ]
+}

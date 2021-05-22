@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.paging",
+    "module": "paging-rxjava2",
+    "version": "3.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.1.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.arch.core",
+          "module": "core-runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-rxjava2-3.1.0-alpha01.aar",
+          "url": "paging-rxjava2-3.1.0-alpha01.aar",
+          "size": 37041,
+          "sha512": "b41a97be242f18e0e832c7ce4b5f443e644dda9241f542d620089c41bbb6ed56a5fadb610becc0bd6facb98d4dcf815431c1819f474c94f067539edd32d1b74b",
+          "sha256": "a1068ec47f8c6b9ea72027354fec6fe3f15ad52372be9bea947658e9f68e9eb0",
+          "sha1": "e8e520120212cee4b4e1279c14e5e908020b38e3",
+          "md5": "f3812c41021a267495e07f66aadecf7c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.1.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.arch.core",
+          "module": "core-runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-rx2",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-rxjava2-3.1.0-alpha01.aar",
+          "url": "paging-rxjava2-3.1.0-alpha01.aar",
+          "size": 37041,
+          "sha512": "b41a97be242f18e0e832c7ce4b5f443e644dda9241f542d620089c41bbb6ed56a5fadb610becc0bd6facb98d4dcf815431c1819f474c94f067539edd32d1b74b",
+          "sha256": "a1068ec47f8c6b9ea72027354fec6fe3f15ad52372be9bea947658e9f68e9eb0",
+          "sha1": "e8e520120212cee4b4e1279c14e5e908020b38e3",
+          "md5": "f3812c41021a267495e07f66aadecf7c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "paging-rxjava2-3.1.0-alpha01-sources.jar",
+          "url": "paging-rxjava2-3.1.0-alpha01-sources.jar",
+          "size": 12778,
+          "sha512": "4f115b3ea970be0f316b3ea217e51dea8f56b651350651a63493bef0b371a8c99a1fa5ee57a0ff30187fd540d00b286566d2ef1ff1879ebd592859564910caa0",
+          "sha256": "1acd7d8b554fd9e4821e80e306959232a83a9fa9eedb94728d5e9ecd6ee8798f",
+          "sha1": "bdc94e19ca3adcc4729a8f5edbf3be549913563b",
+          "md5": "4ce35fe1a5c948026c113f56f8678f0e"
+        }
+      ]
+    }
+  ]
+}

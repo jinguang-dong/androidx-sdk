@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.hilt",
+    "module": "hilt-navigation",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.35"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-navigation-1.1.0-alpha01.aar",
+          "url": "hilt-navigation-1.1.0-alpha01.aar",
+          "size": 3309,
+          "sha512": "9a5e5f6a0989c60893d1956771e0e53057236bb6b9bdbcb6cc4eef79ccb4050a58e56bfc6a454178928c4404fd8dbac72d02f15b075f2280ed62093bd761142a",
+          "sha256": "914498e7c648c7ed694360cb49d94627d2fcd495cc17534a71845c9adb641db3",
+          "sha1": "0be6ed2d88afc1fda21d0953caa4c4dd4097c0f0",
+          "md5": "c525cd11e5c8a9b50f94cede9ed8865c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.35"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-navigation-1.1.0-alpha01.aar",
+          "url": "hilt-navigation-1.1.0-alpha01.aar",
+          "size": 3309,
+          "sha512": "9a5e5f6a0989c60893d1956771e0e53057236bb6b9bdbcb6cc4eef79ccb4050a58e56bfc6a454178928c4404fd8dbac72d02f15b075f2280ed62093bd761142a",
+          "sha256": "914498e7c648c7ed694360cb49d94627d2fcd495cc17534a71845c9adb641db3",
+          "sha1": "0be6ed2d88afc1fda21d0953caa4c4dd4097c0f0",
+          "md5": "c525cd11e5c8a9b50f94cede9ed8865c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hilt-navigation-1.1.0-alpha01-sources.jar",
+          "url": "hilt-navigation-1.1.0-alpha01-sources.jar",
+          "size": 1678,
+          "sha512": "8663f3e0c913dabf93d79ab64b6a43676e123b1168f8c189f23bef83557dee6383255acf864317e4c02d466dc82f247e50c72cb69baa9d216e7a80f418d0b14c",
+          "sha256": "bff87989839c27eaca8040b7ec0d2dc97622979d77dc616c3bddb5fd64691cba",
+          "sha1": "6ec7ef73f1c0b07fb83f60a1b90252c5e9cc5c2c",
+          "md5": "91f118656dd9e08cf1a67a6f866a9d42"
+        }
+      ]
+    }
+  ]
+}

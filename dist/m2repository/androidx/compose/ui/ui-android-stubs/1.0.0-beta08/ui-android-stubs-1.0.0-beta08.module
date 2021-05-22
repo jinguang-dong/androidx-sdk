@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-android-stubs",
+    "version": "1.0.0-beta08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-android-stubs-1.0.0-beta08.aar",
+          "url": "ui-android-stubs-1.0.0-beta08.aar",
+          "size": 4235,
+          "sha512": "4062de6013e2dc6801dba99e9406539a622bfd6eb74cae130b0721280f966675c57a343350dfb64b18dc9bb5796c2c3386a50aa09fc63036eb7f87df1c311989",
+          "sha256": "1758c6179850114e1f38bc2c8ad8094f1fddae64235283c186e1eb1b9fdfeb61",
+          "sha1": "c3b477ef89cf674978942621121c6ad56321182b",
+          "md5": "be7de4a5dc2a4a36b1e719eaf7ef546b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-android-stubs-1.0.0-beta08.aar",
+          "url": "ui-android-stubs-1.0.0-beta08.aar",
+          "size": 4235,
+          "sha512": "4062de6013e2dc6801dba99e9406539a622bfd6eb74cae130b0721280f966675c57a343350dfb64b18dc9bb5796c2c3386a50aa09fc63036eb7f87df1c311989",
+          "sha256": "1758c6179850114e1f38bc2c8ad8094f1fddae64235283c186e1eb1b9fdfeb61",
+          "sha1": "c3b477ef89cf674978942621121c6ad56321182b",
+          "md5": "be7de4a5dc2a4a36b1e719eaf7ef546b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-android-stubs-1.0.0-beta08-sources.jar",
+          "url": "ui-android-stubs-1.0.0-beta08-sources.jar",
+          "size": 2552,
+          "sha512": "6933d0ef8eb4510c74fe92ad42f51026e578268679cfeaff5978a030f62fdb04ee0038ef7e4752b06f98269be983038795548e98c1e108da1fe110d73829bcaf",
+          "sha256": "8b2705aae0f3f06aae304ed9ddda7154dc12c91d8d19563c43ae98ae779e83e8",
+          "sha1": "141204c3521a4950faafd285ef3746bccc650b9a",
+          "md5": "c08c6185dd0ace8a0de28c09b883234c"
+        }
+      ]
+    }
+  ]
+}

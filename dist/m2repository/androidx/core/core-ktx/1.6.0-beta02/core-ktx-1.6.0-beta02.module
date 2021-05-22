@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.core",
+    "module": "core-ktx",
+    "version": "1.6.0-beta02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.6.0-beta02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ktx-1.6.0-beta02.aar",
+          "url": "core-ktx-1.6.0-beta02.aar",
+          "size": 162467,
+          "sha512": "6bc976da196e379df6b113713686aa23534cc8a7f5811a930c6a64d5d91e65c3097af6d7fda0f977362c1899b1322163269a860f7323cf877e158241a9a8405a",
+          "sha256": "6b1a97dc8a50ab61d8065e88953041a92319b4de2a9abaac1e6c3157741b68fa",
+          "sha1": "ec7b6bacbb24ce0b2639afcc067fd1f8eec100bf",
+          "md5": "e6467b4977cd0bbdaaf9a4e9fe714cdc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.6.0-beta02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ktx-1.6.0-beta02.aar",
+          "url": "core-ktx-1.6.0-beta02.aar",
+          "size": 162467,
+          "sha512": "6bc976da196e379df6b113713686aa23534cc8a7f5811a930c6a64d5d91e65c3097af6d7fda0f977362c1899b1322163269a860f7323cf877e158241a9a8405a",
+          "sha256": "6b1a97dc8a50ab61d8065e88953041a92319b4de2a9abaac1e6c3157741b68fa",
+          "sha1": "ec7b6bacbb24ce0b2639afcc067fd1f8eec100bf",
+          "md5": "e6467b4977cd0bbdaaf9a4e9fe714cdc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-ktx-1.6.0-beta02-sources.jar",
+          "url": "core-ktx-1.6.0-beta02-sources.jar",
+          "size": 62089,
+          "sha512": "30a8ea505c5c572f2e21c240f14e80924f8468aec6e04f24395d3833df630f5c940a55449c2991a9df8955d2ef49aff75274272ba42cd4eee3521b113d24e182",
+          "sha256": "38c0033e645d169b750b3b10e9771f80221425a84ac82c6cb0881ef6773de0ce",
+          "sha1": "e30600e58e5010a8f42958b76be78de5a8bbfcf2",
+          "md5": "bbf979be6ccd2eba55240cf9d6f8d7c9"
+        }
+      ]
+    }
+  ]
+}

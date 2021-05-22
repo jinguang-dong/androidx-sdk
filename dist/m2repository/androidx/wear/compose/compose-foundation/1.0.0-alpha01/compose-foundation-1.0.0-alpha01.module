@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear.compose",
+    "module": "compose-foundation",
+    "version": "1.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "compose-foundation-1.0.0-alpha01.aar",
+          "url": "compose-foundation-1.0.0-alpha01.aar",
+          "size": 1746,
+          "sha512": "8334d43f3ef018d118960d8d686d5a44aa650715da70955eea2329dd419d39de23628694f5be9565cbf70f7b9644f3f84b5734dcb35c8778a266c91ae48b1125",
+          "sha256": "8d987de11ac243ae4fb939bf06fa702914c2f36e0814f9642e681369cc464ab3",
+          "sha1": "b09a221fdbd0e35fb15d5c28ba528041b3998f12",
+          "md5": "56133e8b1c811fcef71da5001d4a1b5b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-foundation-1.0.0-alpha01.aar",
+          "url": "compose-foundation-1.0.0-alpha01.aar",
+          "size": 1746,
+          "sha512": "8334d43f3ef018d118960d8d686d5a44aa650715da70955eea2329dd419d39de23628694f5be9565cbf70f7b9644f3f84b5734dcb35c8778a266c91ae48b1125",
+          "sha256": "8d987de11ac243ae4fb939bf06fa702914c2f36e0814f9642e681369cc464ab3",
+          "sha1": "b09a221fdbd0e35fb15d5c28ba528041b3998f12",
+          "md5": "56133e8b1c811fcef71da5001d4a1b5b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "compose-foundation-1.0.0-alpha01-sources.jar",
+          "url": "compose-foundation-1.0.0-alpha01-sources.jar",
+          "size": 261,
+          "sha512": "747d2f00a7f5f379582e33e452f30f3a25732a510971d9ed5161355bf7ef0fc507fef30883960dbfc780d36b6e8215fba01086b4ee053358805686e2f2c1aa85",
+          "sha256": "69e1a62e5752ca3f43fb1607f161379bbe88b64af89c1a543c126160adf7cc53",
+          "sha1": "5b8f86fea035328fc9e8c660773037a3401ce25f",
+          "md5": "e7e9f45eb9d74540092920528bb0abf0"
+        }
+      ]
+    }
+  ]
+}

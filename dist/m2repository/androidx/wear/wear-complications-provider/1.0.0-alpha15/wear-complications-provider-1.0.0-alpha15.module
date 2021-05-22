@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-complications-provider",
+    "version": "1.0.0-alpha15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-complications-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-complications-provider-1.0.0-alpha15.aar",
+          "url": "wear-complications-provider-1.0.0-alpha15.aar",
+          "size": 13581,
+          "sha512": "20a0ad56642a692452ce1aefd1c69994e5ae435e6fcd05d39eaf9c57a52382ae1e9064ee9e731d5c8da3c6896bf250b04aef688254cf58dcca91ab24a181cefa",
+          "sha256": "cc78d6403560360531aac706c8572923de8fede23ca72031fdb1800b2a09ec74",
+          "sha1": "efbb605c62965598f054f58eca97c8d6b7950a95",
+          "md5": "557631a155b5069ec3bc30083ea78c40"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-complications-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-complications-provider-1.0.0-alpha15.aar",
+          "url": "wear-complications-provider-1.0.0-alpha15.aar",
+          "size": 13581,
+          "sha512": "20a0ad56642a692452ce1aefd1c69994e5ae435e6fcd05d39eaf9c57a52382ae1e9064ee9e731d5c8da3c6896bf250b04aef688254cf58dcca91ab24a181cefa",
+          "sha256": "cc78d6403560360531aac706c8572923de8fede23ca72031fdb1800b2a09ec74",
+          "sha1": "efbb605c62965598f054f58eca97c8d6b7950a95",
+          "md5": "557631a155b5069ec3bc30083ea78c40"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-complications-provider-1.0.0-alpha15-sources.jar",
+          "url": "wear-complications-provider-1.0.0-alpha15-sources.jar",
+          "size": 6947,
+          "sha512": "87654c3b61b19a78e036eea137483e997e3b7872c139d9bcfb036c9f6a64d6cb9a109df15512f32f6578101cfe52000291e83f2aaed1bdb7855ee845dd636bc8",
+          "sha256": "17758c483b1d94059ce58052b19cc97c5f40fed6d13c0fea47869254bb4c96de",
+          "sha1": "7420eb7432016ca5ae6714dc939dbed1dc78b0e3",
+          "md5": "e8d3058f1a5849474541b588327f8d98"
+        }
+      ]
+    }
+  ]
+}

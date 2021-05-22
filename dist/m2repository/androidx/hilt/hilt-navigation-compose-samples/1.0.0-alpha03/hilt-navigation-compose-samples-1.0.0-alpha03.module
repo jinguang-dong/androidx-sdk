@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.hilt",
+    "module": "hilt-navigation-compose-samples",
+    "version": "1.0.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hilt-navigation-compose-samples-1.0.0-alpha03.aar",
+          "url": "hilt-navigation-compose-samples-1.0.0-alpha03.aar",
+          "size": 14540,
+          "sha512": "e02e4ed16096afdde287af203578787165a755ed27ebf5114cf60968941adfec3a2dd1b868b8b19e99f24efb34fa5899116c9e91af8bf8eead9e624292eb883f",
+          "sha256": "1b18f32e7d4b517cbd343874d937c52b6b712079cba6eeaf113a6bf138932cb0",
+          "sha1": "6b4650556b75b67c024ad664a4dd6d4af84a3700",
+          "md5": "d9d8b1fca24c5f129fb638930e1033cb"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.hilt",
+          "module": "hilt-navigation-compose",
+          "version": {
+            "requires": "1.0.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-navigation-compose-samples-1.0.0-alpha03.aar",
+          "url": "hilt-navigation-compose-samples-1.0.0-alpha03.aar",
+          "size": 14540,
+          "sha512": "e02e4ed16096afdde287af203578787165a755ed27ebf5114cf60968941adfec3a2dd1b868b8b19e99f24efb34fa5899116c9e91af8bf8eead9e624292eb883f",
+          "sha256": "1b18f32e7d4b517cbd343874d937c52b6b712079cba6eeaf113a6bf138932cb0",
+          "sha1": "6b4650556b75b67c024ad664a4dd6d4af84a3700",
+          "md5": "d9d8b1fca24c5f129fb638930e1033cb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hilt-navigation-compose-samples-1.0.0-alpha03-sources.jar",
+          "url": "hilt-navigation-compose-samples-1.0.0-alpha03-sources.jar",
+          "size": 1882,
+          "sha512": "ed40f0c213b27550b4677c2423cf9f8a8608dfbe3cf97f50950f8f9a9d72ff5ba6dbe4d03b24c4cdf551b9354d8b3f7562995ce339f97c48d4709dbe12c09d97",
+          "sha256": "cb4151c27c00572c5e9125a2964c785bf9c4ba76191ca473ccec7f88e108dd83",
+          "sha1": "e4d783f446376c58d638ecfd2fba05770015b71e",
+          "md5": "1e1217bf9c66b7bab9f0ffbbe83489b4"
+        }
+      ]
+    }
+  ]
+}

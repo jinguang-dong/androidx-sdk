@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.enterprise",
+    "module": "enterprise-feedback-testing",
+    "version": "1.1.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.enterprise",
+          "module": "enterprise-feedback",
+          "version": {
+            "requires": "1.1.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "enterprise-feedback-testing-1.1.0-rc01.aar",
+          "url": "enterprise-feedback-testing-1.1.0-rc01.aar",
+          "size": 3644,
+          "sha512": "b552922c7379f5ec996c7b77dfdb2e6d0272423e75d5311595e2990066f9541b7d78fe7948581eaa5d4acc5cda90ecb403b9211f0a49383c0caa3fceb7c1d7be",
+          "sha256": "c705288f6e15ebee87b64f50147709187aa5cc22318ee950acea1263789b2cb2",
+          "sha1": "55c1cecc3584dc421c71a34e2007fac40e8fa151",
+          "md5": "cd6c951638a9c06702a9cee451187ba2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.enterprise",
+          "module": "enterprise-feedback",
+          "version": {
+            "requires": "1.1.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "enterprise-feedback-testing-1.1.0-rc01.aar",
+          "url": "enterprise-feedback-testing-1.1.0-rc01.aar",
+          "size": 3644,
+          "sha512": "b552922c7379f5ec996c7b77dfdb2e6d0272423e75d5311595e2990066f9541b7d78fe7948581eaa5d4acc5cda90ecb403b9211f0a49383c0caa3fceb7c1d7be",
+          "sha256": "c705288f6e15ebee87b64f50147709187aa5cc22318ee950acea1263789b2cb2",
+          "sha1": "55c1cecc3584dc421c71a34e2007fac40e8fa151",
+          "md5": "cd6c951638a9c06702a9cee451187ba2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "enterprise-feedback-testing-1.1.0-rc01-sources.jar",
+          "url": "enterprise-feedback-testing-1.1.0-rc01-sources.jar",
+          "size": 2507,
+          "sha512": "f35563c6f14d27ec7529b49b0ab87211d17e548c911c075364b71f61d02ddce7cc2c7e65f39933ac1dd615b31495df948ce0864efd7468918af960984c53b5c2",
+          "sha256": "7da5fcf3f0a9f62da4ec042b3ee39c9fa4c4b34fe415199d3b7f431d982cf7d0",
+          "sha1": "115e92f6525f90959be8f6be8900153d4e143bfd",
+          "md5": "fdf31bf3deafcc003c47ea1aa44b5c0d"
+        }
+      ]
+    }
+  ]
+}

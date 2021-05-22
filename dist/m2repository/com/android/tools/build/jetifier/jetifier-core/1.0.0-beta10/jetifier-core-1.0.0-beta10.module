@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.build.jetifier",
+    "module": "jetifier-core",
+    "version": "1.0.0-beta10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jetifier-core-1.0.0-beta10.jar",
+          "url": "jetifier-core-1.0.0-beta10.jar",
+          "size": 129117,
+          "sha512": "35f76c6a381a47189e16acf8a47efc0bed37a51908f75fdc740ebc6b9e74d5a586b33610986a24e6186e5d663c6b822cea57a59f6fd403ca7c957020a31ac699",
+          "sha256": "5487832a6744e26b241d3bb54522a7f9087ac40a42e6a9b5b5a8bad69fc41f22",
+          "sha1": "f73ce9d3b15292d2aff60f0b31bb02f824c05400",
+          "md5": "27b9a5a36730ea4a1e920fa1af8a98a0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jetifier-core-1.0.0-beta10.jar",
+          "url": "jetifier-core-1.0.0-beta10.jar",
+          "size": 129117,
+          "sha512": "35f76c6a381a47189e16acf8a47efc0bed37a51908f75fdc740ebc6b9e74d5a586b33610986a24e6186e5d663c6b822cea57a59f6fd403ca7c957020a31ac699",
+          "sha256": "5487832a6744e26b241d3bb54522a7f9087ac40a42e6a9b5b5a8bad69fc41f22",
+          "sha1": "f73ce9d3b15292d2aff60f0b31bb02f824c05400",
+          "md5": "27b9a5a36730ea4a1e920fa1af8a98a0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jetifier-core-1.0.0-beta10-sources.jar",
+          "url": "jetifier-core-1.0.0-beta10-sources.jar",
+          "size": 63640,
+          "sha512": "e0f7a92ad663d84518c831c094599aec1136201e5ce29592b5e6859609d08a1175d57d3979b3b4365619b0d80b784d349fbe43b95fd6f9e1288362a33be4708e",
+          "sha256": "6d82957740f174f58f306c6ebdb8f3356cb062028ad2dfc628d305bd6c7bda5e",
+          "sha1": "84ce84f5dfe6b454ef010b4acce0a7926d2a4bba",
+          "md5": "b5331f093b6978e8b286e1bc30824783"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.paging",
+    "module": "paging-common",
+    "version": "3.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.arch.core",
+          "module": "core-common",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-common-3.1.0-alpha01.jar",
+          "url": "paging-common-3.1.0-alpha01.jar",
+          "size": 715512,
+          "sha512": "ce5681b976d481db608c49b7c6f555ef552d35236537ec857d2b2a57df228be4a5239b1fa6ad624fcb84768bf77d88a0f52c504a9aa9f9bdd11f9d89b8512a8d",
+          "sha256": "b6c50264675fa1d7e2433e5df25997d990b18b60c3b1be90dd91c6c9e129a70e",
+          "sha1": "ab618e550ea169454c79b5bc4d8c9b5a8202334f",
+          "md5": "dff3d2fa182554cfd4eaf362577f7397"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.arch.core",
+          "module": "core-common",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-common-3.1.0-alpha01.jar",
+          "url": "paging-common-3.1.0-alpha01.jar",
+          "size": 715512,
+          "sha512": "ce5681b976d481db608c49b7c6f555ef552d35236537ec857d2b2a57df228be4a5239b1fa6ad624fcb84768bf77d88a0f52c504a9aa9f9bdd11f9d89b8512a8d",
+          "sha256": "b6c50264675fa1d7e2433e5df25997d990b18b60c3b1be90dd91c6c9e129a70e",
+          "sha1": "ab618e550ea169454c79b5bc4d8c9b5a8202334f",
+          "md5": "dff3d2fa182554cfd4eaf362577f7397"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "paging-common-3.1.0-alpha01-sources.jar",
+          "url": "paging-common-3.1.0-alpha01-sources.jar",
+          "size": 140099,
+          "sha512": "dcf0bc7f1ec0badb7a25f005a42881f7d88bd395df7617da1df5accf59ce8e5c8e9735be4986046d637153fef2bdea9e645dbd8620f9431eb8c81ec89b10c83f",
+          "sha256": "a82218286cce1e8167b39f012fa4f95dec0e029636a33df104c1dc64c4aa9ed7",
+          "sha1": "965f238cdbfa5af192661732285d0763fc7af927",
+          "md5": "cbe21cec603d2af39ac6d47609205567"
+        }
+      ]
+    }
+  ]
+}

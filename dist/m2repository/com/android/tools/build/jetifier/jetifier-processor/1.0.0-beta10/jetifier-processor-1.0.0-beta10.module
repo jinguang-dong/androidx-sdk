@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.build.jetifier",
+    "module": "jetifier-processor",
+    "version": "1.0.0-beta10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build.jetifier",
+          "module": "jetifier-core",
+          "version": {
+            "requires": "1.0.0-beta10"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.jdom",
+          "module": "jdom2",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jetifier-processor-1.0.0-beta10.jar",
+          "url": "jetifier-processor-1.0.0-beta10.jar",
+          "size": 172345,
+          "sha512": "cc543ef9dfdf9f65c87c07c37a3375250534002519b84f6279d0a60b82ae21bdc4416a7e0239d4a6b7f339c2a7a0bdc6f3a121f7ebeecab98c4861cca8559339",
+          "sha256": "8df159e4f26aa78c523cb234e13e7ca9e4ee11ad4b2a9f7d00ec28c9fb7c45a7",
+          "sha1": "c7e91d136889ecee6622ae7635d7e216ad80e02c",
+          "md5": "88abdb6fe5823a881683943af83b59aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build.jetifier",
+          "module": "jetifier-core",
+          "version": {
+            "requires": "1.0.0-beta10"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.jdom",
+          "module": "jdom2",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jetifier-processor-1.0.0-beta10.jar",
+          "url": "jetifier-processor-1.0.0-beta10.jar",
+          "size": 172345,
+          "sha512": "cc543ef9dfdf9f65c87c07c37a3375250534002519b84f6279d0a60b82ae21bdc4416a7e0239d4a6b7f339c2a7a0bdc6f3a121f7ebeecab98c4861cca8559339",
+          "sha256": "8df159e4f26aa78c523cb234e13e7ca9e4ee11ad4b2a9f7d00ec28c9fb7c45a7",
+          "sha1": "c7e91d136889ecee6622ae7635d7e216ad80e02c",
+          "md5": "88abdb6fe5823a881683943af83b59aa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jetifier-processor-1.0.0-beta10-sources.jar",
+          "url": "jetifier-processor-1.0.0-beta10-sources.jar",
+          "size": 57702,
+          "sha512": "612d093d8b390ff1e0d721b9008034dbe7e537192f62bae0a5e8c5c4f73ca77727ca8be009c4daf0e5d719564af478ee49fe846fa4057a820b4255ff41f46386",
+          "sha256": "e71dc39006fd5a1297601c9ca06aa20b555a55206142428b910f421a876d61a6",
+          "sha1": "acd77234897db04e09f8efc4490fbd452696a613",
+          "md5": "aa91b9fbf4573bd9d7c47429093ca4d0"
+        }
+      ]
+    }
+  ]
+}

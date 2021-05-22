@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.dynamicanimation",
+    "module": "dynamicanimation-ktx",
+    "version": "1.0.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation",
+          "version": {
+            "requires": "1.1.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamicanimation-ktx-1.0.0-alpha04.aar",
+          "url": "dynamicanimation-ktx-1.0.0-alpha04.aar",
+          "size": 4485,
+          "sha512": "7540956914d41e888232306829cbb1c9ad6ebdc8c27436b123f82ebae2b8ae4067dc491f9204d416d4c28f65d5f13aadcabef8d2f9bc088874f66582432a0409",
+          "sha256": "97600cf06348093bad70f173aca1753029efab17cd6ea7b2b7a0e2bfa836dd1c",
+          "sha1": "182dd594ddc48b06f6d0e7d134fc766f62f4e73f",
+          "md5": "4016bf135c552d3f2646f92d2de33ac1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation",
+          "version": {
+            "requires": "1.1.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamicanimation-ktx-1.0.0-alpha04.aar",
+          "url": "dynamicanimation-ktx-1.0.0-alpha04.aar",
+          "size": 4485,
+          "sha512": "7540956914d41e888232306829cbb1c9ad6ebdc8c27436b123f82ebae2b8ae4067dc491f9204d416d4c28f65d5f13aadcabef8d2f9bc088874f66582432a0409",
+          "sha256": "97600cf06348093bad70f173aca1753029efab17cd6ea7b2b7a0e2bfa836dd1c",
+          "sha1": "182dd594ddc48b06f6d0e7d134fc766f62f4e73f",
+          "md5": "4016bf135c552d3f2646f92d2de33ac1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dynamicanimation-ktx-1.0.0-alpha04-sources.jar",
+          "url": "dynamicanimation-ktx-1.0.0-alpha04-sources.jar",
+          "size": 1918,
+          "sha512": "fc23db24979a5d9e047c9a3829fd18807e2525a2d7a1e975dc90be773222fe231654744de95e345afb6bf522cbbbacdb65585ef545eff6b8f84d640677f91571",
+          "sha256": "a25513ead633b722517aa6d3ccceff1de5b7a4fa33d68f6b952215d8d926645d",
+          "sha1": "cb9473b93942f7b92fe7bdda52ab37675570f6d7",
+          "md5": "53eabc8802c6666f38236dfceca1cab4"
+        }
+      ]
+    }
+  ]
+}

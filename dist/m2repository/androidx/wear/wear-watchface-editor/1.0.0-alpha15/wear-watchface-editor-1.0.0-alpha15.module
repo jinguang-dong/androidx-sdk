@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-watchface-editor",
+    "version": "1.0.0-alpha15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.versionedparcelable",
+          "module": "versionedparcelable",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface-client",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-editor-1.0.0-alpha15.aar",
+          "url": "wear-watchface-editor-1.0.0-alpha15.aar",
+          "size": 65558,
+          "sha512": "07617e245f37485611435f2356cb2768439776282bb67598725bbc39eae5b278fbb8d07cd1be1081403bfeb29154c9e24e1039d64e75d4808ebff18f1757aa74",
+          "sha256": "55858c330227dfec9272d4888b441965a3110eb4800b6db8914f43c368f37269",
+          "sha1": "0c81db6109122278b4649bac8b86b4689c9e0ef3",
+          "md5": "e09f157dbe11beec0cf9f04e0dc2679e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.versionedparcelable",
+          "module": "versionedparcelable",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface-client",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-editor-1.0.0-alpha15.aar",
+          "url": "wear-watchface-editor-1.0.0-alpha15.aar",
+          "size": 65558,
+          "sha512": "07617e245f37485611435f2356cb2768439776282bb67598725bbc39eae5b278fbb8d07cd1be1081403bfeb29154c9e24e1039d64e75d4808ebff18f1757aa74",
+          "sha256": "55858c330227dfec9272d4888b441965a3110eb4800b6db8914f43c368f37269",
+          "sha1": "0c81db6109122278b4649bac8b86b4689c9e0ef3",
+          "md5": "e09f157dbe11beec0cf9f04e0dc2679e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-watchface-editor-1.0.0-alpha15-sources.jar",
+          "url": "wear-watchface-editor-1.0.0-alpha15-sources.jar",
+          "size": 10667,
+          "sha512": "ebcde31f417fc8261e541d0a4215b53330026aad20d44c15a9eb24b499180875593a325945ed96d7ba7e47dc2564ff1d3f90f2f59167cef5e38b0cedcbb57d91",
+          "sha256": "883c39f05bbe01822843c7504a5f0f8a7fa55f18d7b479b67574efe9d9782ff4",
+          "sha1": "035b3f14b4eeccd345f17eeb444b74d47965188c",
+          "md5": "2e85d0e85f424b45ceacb9bbe6e8ee7e"
+        }
+      ]
+    }
+  ]
+}

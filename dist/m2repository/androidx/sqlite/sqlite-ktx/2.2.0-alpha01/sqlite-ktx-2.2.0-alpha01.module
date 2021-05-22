@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.sqlite",
+    "module": "sqlite-ktx",
+    "version": "2.2.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.2.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite-ktx-2.2.0-alpha01.aar",
+          "url": "sqlite-ktx-2.2.0-alpha01.aar",
+          "size": 3270,
+          "sha512": "f871b24ab8435f0873fb262049ddeeb2eee8a757760e5aa827a51b122f96ac8db73cdaa7ae9b1c0fd323a7a9e0c3f20c71db350de56e0a6cda457bb025c906ae",
+          "sha256": "91694a4eee333b280770cd74cc03ae4eca9464b4354d2e6e059fcc0da66867ee",
+          "sha1": "feff3bc23022cbdc1bae0f8aea0a91936cbc631a",
+          "md5": "682ac0c5f189a269a37d1a8fe283260e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.2.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite-ktx-2.2.0-alpha01.aar",
+          "url": "sqlite-ktx-2.2.0-alpha01.aar",
+          "size": 3270,
+          "sha512": "f871b24ab8435f0873fb262049ddeeb2eee8a757760e5aa827a51b122f96ac8db73cdaa7ae9b1c0fd323a7a9e0c3f20c71db350de56e0a6cda457bb025c906ae",
+          "sha256": "91694a4eee333b280770cd74cc03ae4eca9464b4354d2e6e059fcc0da66867ee",
+          "sha1": "feff3bc23022cbdc1bae0f8aea0a91936cbc631a",
+          "md5": "682ac0c5f189a269a37d1a8fe283260e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqlite-ktx-2.2.0-alpha01-sources.jar",
+          "url": "sqlite-ktx-2.2.0-alpha01-sources.jar",
+          "size": 1451,
+          "sha512": "4db2c1b0799023bc207d8bbd7dd558a660ceb938fa2cade49f1b4670ca9ca9c725f6df357731ad3fdc61ecc0bc16b170195700bfac5bf57788556816a6d0b22e",
+          "sha256": "4a4314253c3248ba4b1315a3085c20778b1e9cc574c1a8235bdeb813342bf60f",
+          "sha1": "38f0b6cf87597fe38d7730b909bd40cd4585c62e",
+          "md5": "437f819281646415197ad56aaee96d9c"
+        }
+      ]
+    }
+  ]
+}

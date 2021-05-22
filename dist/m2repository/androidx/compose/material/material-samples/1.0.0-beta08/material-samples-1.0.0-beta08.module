@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.material",
+    "module": "material-samples",
+    "version": "1.0.0-beta08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "material-samples-1.0.0-beta08.aar",
+          "url": "material-samples-1.0.0-beta08.aar",
+          "size": 747574,
+          "sha512": "837489209877fdd69e2f6760eabc2accfb9946f2009ba9517cf43a618a5a6d77d83502958786ad01995be9ec89b27fb65d79bd77c40f9ce636db118457f85b41",
+          "sha256": "f48cf2151a0500049fc84c40aa39e41b29c5865f90e0b2322e7597c22c41a3e1",
+          "sha1": "1720c1d5f453fd45519d6bab73752169435bd013",
+          "md5": "27652bafce18f9415d5f2b0fcf71463e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-samples-1.0.0-beta08.aar",
+          "url": "material-samples-1.0.0-beta08.aar",
+          "size": 747574,
+          "sha512": "837489209877fdd69e2f6760eabc2accfb9946f2009ba9517cf43a618a5a6d77d83502958786ad01995be9ec89b27fb65d79bd77c40f9ce636db118457f85b41",
+          "sha256": "f48cf2151a0500049fc84c40aa39e41b29c5865f90e0b2322e7597c22c41a3e1",
+          "sha1": "1720c1d5f453fd45519d6bab73752169435bd013",
+          "md5": "27652bafce18f9415d5f2b0fcf71463e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "material-samples-1.0.0-beta08-sources.jar",
+          "url": "material-samples-1.0.0-beta08-sources.jar",
+          "size": 33782,
+          "sha512": "cb6be05d0a738c9f771b21e55c2e6a1548243bd4fe2a263afd4585151d16c97136ac758629ad4c8b486434593f503e295bb8c9b18f9f723dd78409f61fa77096",
+          "sha256": "06cb707ae864e5e74d9ae67fc1814865ea7598b27cd93ee31b18c8eaec6ccbb8",
+          "sha1": "1056040190315827e286de9ae3a94e80581caff3",
+          "md5": "cc6979b463546ea11ed53c93fcb29ae9"
+        }
+      ]
+    }
+  ]
+}

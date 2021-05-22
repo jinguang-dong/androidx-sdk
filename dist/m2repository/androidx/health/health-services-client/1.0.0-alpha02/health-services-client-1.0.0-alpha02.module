@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.health",
+    "module": "health-services-client",
+    "version": "1.0.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "health-services-client-1.0.0-alpha02.aar",
+          "url": "health-services-client-1.0.0-alpha02.aar",
+          "size": 356695,
+          "sha512": "3bbce1e0f42e434fa987569ccc015727c69e92817b8ae4b60ebb3a3cc526e38f9803c78b8d9ea3b6f3abd7728d635640affd7ba70c64c3f2a77976601461d7dc",
+          "sha256": "87c596f5d197e87612d43190bb366d12fb19228190d4bd966622aba557578328",
+          "sha1": "68e5fab80e55b4bd272b59f2a1b9bd6c49956959",
+          "md5": "f9457101b27bffa1d4f34ee9a4765c6c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "29.0-android"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.5.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "health-services-client-1.0.0-alpha02.aar",
+          "url": "health-services-client-1.0.0-alpha02.aar",
+          "size": 356695,
+          "sha512": "3bbce1e0f42e434fa987569ccc015727c69e92817b8ae4b60ebb3a3cc526e38f9803c78b8d9ea3b6f3abd7728d635640affd7ba70c64c3f2a77976601461d7dc",
+          "sha256": "87c596f5d197e87612d43190bb366d12fb19228190d4bd966622aba557578328",
+          "sha1": "68e5fab80e55b4bd272b59f2a1b9bd6c49956959",
+          "md5": "f9457101b27bffa1d4f34ee9a4765c6c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "health-services-client-1.0.0-alpha02-sources.jar",
+          "url": "health-services-client-1.0.0-alpha02-sources.jar",
+          "size": 105918,
+          "sha512": "cfe37f8626a48c82f1b77cca50114e45cb9f7f6f4eea334931b8c9d630949806414b1dc4809c7fa3920187f0f39cf305dcb0b0448ff0f7cc5667085695e09224",
+          "sha256": "3f31536a5b3be3d01b6edbe7f17517e3e65bf6e89fb436551db38971b91b7c15",
+          "sha1": "5046c7ab418b18f29ad8806e69b7b9cbc6378050",
+          "md5": "252ff332e4f31b7a08dac9e68fdf0f8a"
+        }
+      ]
+    }
+  ]
+}

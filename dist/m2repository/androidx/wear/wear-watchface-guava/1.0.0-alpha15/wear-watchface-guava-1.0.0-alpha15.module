@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-watchface-guava",
+    "version": "1.0.0-alpha15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-guava-1.0.0-alpha15.aar",
+          "url": "wear-watchface-guava-1.0.0-alpha15.aar",
+          "size": 5081,
+          "sha512": "79ca2a842f921dc1d3b015acff96ef2c29d2a58b6a6361ac38e1dc596ef7fb1ba88d0edb26e6adf14cda60d89b068e81a633ef4f2d112c9cb856fe10847ac780",
+          "sha256": "0cd776e928641c37e0e6c1ec7e72c6e38ed0b54fb261c8699be6dd08e6a45efe",
+          "sha1": "84c918d6eeda52e51f64a4c7c32cab8ef5d13450",
+          "md5": "cbe18d795c1b99d09a95a54c8dec8a0f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-guava-1.0.0-alpha15.aar",
+          "url": "wear-watchface-guava-1.0.0-alpha15.aar",
+          "size": 5081,
+          "sha512": "79ca2a842f921dc1d3b015acff96ef2c29d2a58b6a6361ac38e1dc596ef7fb1ba88d0edb26e6adf14cda60d89b068e81a633ef4f2d112c9cb856fe10847ac780",
+          "sha256": "0cd776e928641c37e0e6c1ec7e72c6e38ed0b54fb261c8699be6dd08e6a45efe",
+          "sha1": "84c918d6eeda52e51f64a4c7c32cab8ef5d13450",
+          "md5": "cbe18d795c1b99d09a95a54c8dec8a0f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-watchface-guava-1.0.0-alpha15-sources.jar",
+          "url": "wear-watchface-guava-1.0.0-alpha15-sources.jar",
+          "size": 1596,
+          "sha512": "c2b82dd636b881a84b80455be5f2d18313bf4657cb6212d933b90ce6afa37c5a35ad03af9d315947a1765cad5c2f045c3009b03be357685b2abf8afb87a283f1",
+          "sha256": "a85673cc0f9d10a91b83959b3fb36bf1489460848b077526c4962237c41a06f0",
+          "sha1": "24f4f8781ae23973f6c88a52396504f34c8aab74",
+          "md5": "6c8ebc358fb3cd400ec21de72fce5f6a"
+        }
+      ]
+    }
+  ]
+}

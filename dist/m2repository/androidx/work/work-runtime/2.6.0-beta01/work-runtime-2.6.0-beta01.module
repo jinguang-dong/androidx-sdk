@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.work",
+    "module": "work-runtime",
+    "version": "2.6.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "work-runtime-2.6.0-beta01.aar",
+          "url": "work-runtime-2.6.0-beta01.aar",
+          "size": 1535863,
+          "sha512": "4c07a235b104ef7ea87aa248d28952196366bc8b463477e0053ab77fe492661adb77e1b1fb8db4c29264b5dfdbeef34d819dddbaef8a3003e52d884de6ffa5af",
+          "sha256": "140b8c2c0ff2606e4254db6a1bf29226be314b4c258caae53c4b56d6622277c8",
+          "sha1": "eee899034416da98a1103eb821988b94e744af34",
+          "md5": "9b8eb0887153f4ace8a2395e40917eae"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.2.5"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-framework",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "work-runtime-2.6.0-beta01.aar",
+          "url": "work-runtime-2.6.0-beta01.aar",
+          "size": 1535863,
+          "sha512": "4c07a235b104ef7ea87aa248d28952196366bc8b463477e0053ab77fe492661adb77e1b1fb8db4c29264b5dfdbeef34d819dddbaef8a3003e52d884de6ffa5af",
+          "sha256": "140b8c2c0ff2606e4254db6a1bf29226be314b4c258caae53c4b56d6622277c8",
+          "sha1": "eee899034416da98a1103eb821988b94e744af34",
+          "md5": "9b8eb0887153f4ace8a2395e40917eae"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "work-runtime-2.6.0-beta01-sources.jar",
+          "url": "work-runtime-2.6.0-beta01-sources.jar",
+          "size": 260774,
+          "sha512": "ddde58c1a69e839cf1f8c426788b2786df6e2c831d798c97565c28da017c40636daae52d528d9724543ed95486a0d4bc5938466310af6a974076eb6459bc0402",
+          "sha256": "fb3cfd2bdf7088ce581a98156c1818b5a0e481f0661864be795a4ff3c82f08f1",
+          "sha1": "9d0289025c7a2143e6a2c821f72977710d106167",
+          "md5": "8a60abb99ea4eb5ffa5188dddaa5436e"
+        }
+      ]
+    }
+  ]
+}

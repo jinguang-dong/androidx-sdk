@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.cursoradapter",
+    "module": "cursoradapter",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cursoradapter-1.1.0-alpha01.aar",
+          "url": "cursoradapter-1.1.0-alpha01.aar",
+          "size": 11626,
+          "sha512": "fabe54b691ebdf53a4803e85816196bbe038254fe6d702d49e8231c629b1369054417cb5074efd44cf3b9ce36682c6d18b22877b679837321c0851702c71cce9",
+          "sha256": "af40d738647642f874e8f3e91a236a4fc186d2e6070ec9c30285fe56b0354bf2",
+          "sha1": "6f8af49a8bff67898e8587bb44f817922f385df7",
+          "md5": "18da4efc7e2c205fd88b1e505fd1c29e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cursoradapter-1.1.0-alpha01.aar",
+          "url": "cursoradapter-1.1.0-alpha01.aar",
+          "size": 11626,
+          "sha512": "fabe54b691ebdf53a4803e85816196bbe038254fe6d702d49e8231c629b1369054417cb5074efd44cf3b9ce36682c6d18b22877b679837321c0851702c71cce9",
+          "sha256": "af40d738647642f874e8f3e91a236a4fc186d2e6070ec9c30285fe56b0354bf2",
+          "sha1": "6f8af49a8bff67898e8587bb44f817922f385df7",
+          "md5": "18da4efc7e2c205fd88b1e505fd1c29e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cursoradapter-1.1.0-alpha01-sources.jar",
+          "url": "cursoradapter-1.1.0-alpha01-sources.jar",
+          "size": 11855,
+          "sha512": "edee80c5f5552d4fda04eed71e36cbdf7399474b90f109b2569062970ef80dfa84d3952cd8c457111a8f93bdd4b51f0f8201d87115e2431954a53aa59b93ec75",
+          "sha256": "aaa9fc2b2143b44221d6ddde5d26e11865f7989f5411e4a1b975c6c67d5b203a",
+          "sha1": "2be0ca8a59732b119822f7ecc9a63255cc5dd50f",
+          "md5": "fd2b832b07c1ee2cdd3c4713e0fc654b"
+        }
+      ]
+    }
+  ]
+}

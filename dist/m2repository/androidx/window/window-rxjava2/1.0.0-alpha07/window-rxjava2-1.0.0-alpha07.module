@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.window",
+    "module": "window-rxjava2",
+    "version": "1.0.0-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-rx2",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        },
+        {
+          "group": "androidx.window",
+          "module": "window",
+          "version": {
+            "requires": "1.0.0-alpha07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "window-rxjava2-1.0.0-alpha07.aar",
+          "url": "window-rxjava2-1.0.0-alpha07.aar",
+          "size": 2829,
+          "sha512": "f284c5013d6c3c5fda49b82c78ab7a13f86eed188cdafde93d3fba36b58791b53ae5fff5538d272c237057a434bae9dc8214a89a2495f847038e7af305afd6f6",
+          "sha256": "eac70f95bd5ec0ef5f2c095c9d32ec98cf9883591c2626d95302bb9b228551e4",
+          "sha1": "362cfe307c01cde6daf44108747bae170b6f162d",
+          "md5": "e39d25d1d510a6f33301de3996d96b0b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-rx2",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        },
+        {
+          "group": "androidx.window",
+          "module": "window",
+          "version": {
+            "requires": "1.0.0-alpha07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "window-rxjava2-1.0.0-alpha07.aar",
+          "url": "window-rxjava2-1.0.0-alpha07.aar",
+          "size": 2829,
+          "sha512": "f284c5013d6c3c5fda49b82c78ab7a13f86eed188cdafde93d3fba36b58791b53ae5fff5538d272c237057a434bae9dc8214a89a2495f847038e7af305afd6f6",
+          "sha256": "eac70f95bd5ec0ef5f2c095c9d32ec98cf9883591c2626d95302bb9b228551e4",
+          "sha1": "362cfe307c01cde6daf44108747bae170b6f162d",
+          "md5": "e39d25d1d510a6f33301de3996d96b0b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "window-rxjava2-1.0.0-alpha07-sources.jar",
+          "url": "window-rxjava2-1.0.0-alpha07-sources.jar",
+          "size": 1375,
+          "sha512": "583c1945a49bad79de31b95f8b4e123085f8e3f109f4e11efed03bcb7b3dead7a6ba2cb2b0cea54566efb5de07bbb401a4c5bab03ab47b528472305280a3815a",
+          "sha256": "99ed476eb3a5b37492fb5959717b300b44e5b24463729fea0283611bd5bc5684",
+          "sha1": "f1527ed9e8399d966f0eea987367ffddc998dc51",
+          "md5": "4dca09f9018708555fd900ae31e747e7"
+        }
+      ]
+    }
+  ]
+}

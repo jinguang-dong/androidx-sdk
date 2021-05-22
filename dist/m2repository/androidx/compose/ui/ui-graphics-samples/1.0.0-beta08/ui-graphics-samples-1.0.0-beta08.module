@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-graphics-samples",
+    "version": "1.0.0-beta08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-graphics-samples-1.0.0-beta08.aar",
+          "url": "ui-graphics-samples-1.0.0-beta08.aar",
+          "size": 29824,
+          "sha512": "b813a34250945bed83d29a355787cc0028bbaf94297f346ce99b5e18a3d083fd582234984f319014390a3b9eb69aff3d59407051cf0a00041febd89a3fb1cb14",
+          "sha256": "4de605fea46731424d75a9e20883bd2298a5d9df047f31f676f6ae50bee71151",
+          "sha1": "16d6b549932f868f7b40b1450d4b5ac46e830175",
+          "md5": "03486269b4ec6d90bbddf00da57aa4e9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-graphics-samples-1.0.0-beta08.aar",
+          "url": "ui-graphics-samples-1.0.0-beta08.aar",
+          "size": 29824,
+          "sha512": "b813a34250945bed83d29a355787cc0028bbaf94297f346ce99b5e18a3d083fd582234984f319014390a3b9eb69aff3d59407051cf0a00041febd89a3fb1cb14",
+          "sha256": "4de605fea46731424d75a9e20883bd2298a5d9df047f31f676f6ae50bee71151",
+          "sha1": "16d6b549932f868f7b40b1450d4b5ac46e830175",
+          "md5": "03486269b4ec6d90bbddf00da57aa4e9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-graphics-samples-1.0.0-beta08-sources.jar",
+          "url": "ui-graphics-samples-1.0.0-beta08-sources.jar",
+          "size": 5963,
+          "sha512": "e7853fa51a9696bd860ab9217c06ddf658226f597461a935bb6b8efef0e19e39a5f21c022774ff0ef7fdb2aa0cf3ca6d59c75eaff1e756233742981b5117ea2b",
+          "sha256": "c56a5291ada149c075e3a571d143797c8ce71c23e175a84423fc999208bf7ab3",
+          "sha1": "2c57d5dd8ba54a8f6b6580c03081dc82cdbbd08a",
+          "md5": "484f74f5d1b7b84cf9f95dc76e4f9f44"
+        }
+      ]
+    }
+  ]
+}

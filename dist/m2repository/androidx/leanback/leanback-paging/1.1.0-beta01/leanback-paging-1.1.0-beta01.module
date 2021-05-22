@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.leanback",
+    "module": "leanback-paging",
+    "version": "1.1.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.leanback",
+          "module": "leanback",
+          "version": {
+            "requires": "1.1.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-runtime",
+          "version": {
+            "requires": "3.0.0-beta03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "leanback-paging-1.1.0-beta01.aar",
+          "url": "leanback-paging-1.1.0-beta01.aar",
+          "size": 6241,
+          "sha512": "7d801a938325591e6781f218540f0f795dbc525987f87c9c69cb10235fe88a93ec9da03959ff3bbafedcd37221154866c8ee452df37fcfcdd16378f6e13d5ef7",
+          "sha256": "58373093f2b7295a5d2c879ef8d1db1a72f9ff4927f2250a8101e4e4cf187ffd",
+          "sha1": "7cddfae474148025bdcbf17ae00cacc45e09cddf",
+          "md5": "1a9a87edcb0ac0653419b0a0e4e2a5f8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.leanback",
+          "module": "leanback",
+          "version": {
+            "requires": "1.1.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-runtime",
+          "version": {
+            "requires": "3.0.0-beta03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "leanback-paging-1.1.0-beta01.aar",
+          "url": "leanback-paging-1.1.0-beta01.aar",
+          "size": 6241,
+          "sha512": "7d801a938325591e6781f218540f0f795dbc525987f87c9c69cb10235fe88a93ec9da03959ff3bbafedcd37221154866c8ee452df37fcfcdd16378f6e13d5ef7",
+          "sha256": "58373093f2b7295a5d2c879ef8d1db1a72f9ff4927f2250a8101e4e4cf187ffd",
+          "sha1": "7cddfae474148025bdcbf17ae00cacc45e09cddf",
+          "md5": "1a9a87edcb0ac0653419b0a0e4e2a5f8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "leanback-paging-1.1.0-beta01-sources.jar",
+          "url": "leanback-paging-1.1.0-beta01-sources.jar",
+          "size": 3350,
+          "sha512": "28bc7c25475a6d6653b8dd20339b965c9e05b32112b420a7752fb8efd6da40da492f5e599052ba1c3f9fbbba06b633f66c9ac355c6077f725f0750740d2d9514",
+          "sha256": "606054bb8f100331319edb821b59b735b3a6f781ef67e78abdf1525918d88362",
+          "sha1": "0750fbe79d431c738d42a0ec2cf084b4e1b2004e",
+          "md5": "9520af1a7950b6d593b25490e85bc0cf"
+        }
+      ]
+    }
+  ]
+}

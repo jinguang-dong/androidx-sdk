@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear.tiles",
+    "module": "tiles-renderer",
+    "version": "1.0.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tiles-renderer-1.0.0-alpha06.aar",
+          "url": "tiles-renderer-1.0.0-alpha06.aar",
+          "size": 149271,
+          "sha512": "a7bf7984ee361e86a4807b50c9fe86afcd538a64ba35db7693c5cb098a3449844dd82e657f05651e56e510c5852a85f9fde08df0c1549d16b00744fd58737b4e",
+          "sha256": "e6b1e210acde5273aa2f1d8f4a48b71131c2902978a4152109dc46b941fa0cff",
+          "sha1": "6c4847e4c30f28ec22327acf5c4fc16b4b5e3773",
+          "md5": "4b01b9e04eb30622bd2005f7fc5b4086"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "androidx.concurrent",
+          "module": "concurrent-futures",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles",
+          "version": {
+            "requires": "1.0.0-alpha06"
+          }
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles-proto",
+          "version": {
+            "requires": "1.0.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tiles-renderer-1.0.0-alpha06.aar",
+          "url": "tiles-renderer-1.0.0-alpha06.aar",
+          "size": 149271,
+          "sha512": "a7bf7984ee361e86a4807b50c9fe86afcd538a64ba35db7693c5cb098a3449844dd82e657f05651e56e510c5852a85f9fde08df0c1549d16b00744fd58737b4e",
+          "sha256": "e6b1e210acde5273aa2f1d8f4a48b71131c2902978a4152109dc46b941fa0cff",
+          "sha1": "6c4847e4c30f28ec22327acf5c4fc16b4b5e3773",
+          "md5": "4b01b9e04eb30622bd2005f7fc5b4086"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tiles-renderer-1.0.0-alpha06-sources.jar",
+          "url": "tiles-renderer-1.0.0-alpha06-sources.jar",
+          "size": 70278,
+          "sha512": "68dfc7c355cdc0b826e38c8d8378c93ec1a98abd6e0185cd7dca66dfa1ab655b650fbc776b13c58ff42a18680e76ee512f60064d1b388f72419199090aca74cc",
+          "sha256": "0b7294e3e16a843875f2bdbe9b115a3a6685e5a02e81659a9854507ace4e5872",
+          "sha1": "1b2dcfb86e37f32f6c1e1c841f69ecb90dbaf5a0",
+          "md5": "ec0d378c50ed1967239605cd47165eec"
+        }
+      ]
+    }
+  ]
+}

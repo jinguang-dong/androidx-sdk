@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.room",
+    "module": "room-rxjava2",
+    "version": "2.4.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-common",
+          "version": {
+            "requires": "2.4.0-alpha03"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.4.0-alpha03"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-rxjava2-2.4.0-alpha03.aar",
+          "url": "room-rxjava2-2.4.0-alpha03.aar",
+          "size": 10654,
+          "sha512": "32dbf3dfa1b5961dfcba2ce06ebf9a37dcf070362cba974349c2189d8b62d8338158b9fa0a2f1f2197d909b6d6f4fed828dfd3bfb4a3b9717dc1f429a3437061",
+          "sha256": "9efe3080c63199662348cc33456063700956cc289f36d4d55a015d950ea1ed8b",
+          "sha1": "e63c7a7310ef73f1d405bbee7a93473e54f4efa9",
+          "md5": "9d406eb02da1d415a2b5984ace03ff2c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.arch.core",
+          "module": "core-runtime",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-common",
+          "version": {
+            "requires": "2.4.0-alpha03"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.4.0-alpha03"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-rxjava2-2.4.0-alpha03.aar",
+          "url": "room-rxjava2-2.4.0-alpha03.aar",
+          "size": 10654,
+          "sha512": "32dbf3dfa1b5961dfcba2ce06ebf9a37dcf070362cba974349c2189d8b62d8338158b9fa0a2f1f2197d909b6d6f4fed828dfd3bfb4a3b9717dc1f429a3437061",
+          "sha256": "9efe3080c63199662348cc33456063700956cc289f36d4d55a015d950ea1ed8b",
+          "sha1": "e63c7a7310ef73f1d405bbee7a93473e54f4efa9",
+          "md5": "9d406eb02da1d415a2b5984ace03ff2c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "room-rxjava2-2.4.0-alpha03-sources.jar",
+          "url": "room-rxjava2-2.4.0-alpha03-sources.jar",
+          "size": 3664,
+          "sha512": "a4696651701c6f7c28fc3efd7a7ca872ba5c9ccba18c409792db4b27573d14101de1d9d6b300e8d9e6f213946a8e24a493cc5f076011f32f300db853011beb90",
+          "sha256": "604ca4c647deb535645beeae068759264c14fe127111a63cc07ba239e0a07340",
+          "sha1": "6bcdbeb8919b0a5c933cec6c7a3305e1fa6dab54",
+          "md5": "b03c090890414e9c80f74f883d6669bd"
+        }
+      ]
+    }
+  ]
+}

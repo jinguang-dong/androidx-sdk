@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.window",
+    "module": "window-sidecar",
+    "version": "0.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "window-sidecar-0.1.0-alpha01.aar",
+          "url": "window-sidecar-0.1.0-alpha01.aar",
+          "size": 5369,
+          "sha512": "a3e133a3d991618b7eccce8467d59f068044462b317b15603b6d9e2003b5c6d8397e080170689f199e029a88682fafef9f86c56fde0f61702cfe98b940d55a17",
+          "sha256": "0c97eabcbe5ddbb6de9159d1b4b8e217c61b70d61a847a4ede0a56b5282b9756",
+          "sha1": "5838ed38033f725290b8e977d8d74b3b625bfd69",
+          "md5": "54598a9f4eeeafb8b58ab882a8a402de"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "window-sidecar-0.1.0-alpha01.aar",
+          "url": "window-sidecar-0.1.0-alpha01.aar",
+          "size": 5369,
+          "sha512": "a3e133a3d991618b7eccce8467d59f068044462b317b15603b6d9e2003b5c6d8397e080170689f199e029a88682fafef9f86c56fde0f61702cfe98b940d55a17",
+          "sha256": "0c97eabcbe5ddbb6de9159d1b4b8e217c61b70d61a847a4ede0a56b5282b9756",
+          "sha1": "5838ed38033f725290b8e977d8d74b3b625bfd69",
+          "md5": "54598a9f4eeeafb8b58ab882a8a402de"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "window-sidecar-0.1.0-alpha01-sources.jar",
+          "url": "window-sidecar-0.1.0-alpha01-sources.jar",
+          "size": 6010,
+          "sha512": "f1fd6b7387ea1da6fb7250072c146d7da4974de50f6770e71d0f07c26122aefb2a522ba4f9c82839ee9347cf3c8cf8252f2c79a0f84afda029391bc05ceba7ff",
+          "sha256": "7a332efabb4451d6f0e1509910c15b823a5ca7ce2ed137431e2105a3b9b0951a",
+          "sha1": "ae17c4d19570d7c62c7cb3416fb6027041fc471e",
+          "md5": "33f235b7615661fe8c6356bcd872bf87"
+        }
+      ]
+    }
+  ]
+}

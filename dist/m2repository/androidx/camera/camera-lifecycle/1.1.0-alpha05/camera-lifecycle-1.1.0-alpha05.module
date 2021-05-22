@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.camera",
+    "module": "camera-lifecycle",
+    "version": "1.1.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera-lifecycle-1.1.0-alpha05.aar",
+          "url": "camera-lifecycle-1.1.0-alpha05.aar",
+          "size": 17267,
+          "sha512": "dddff99fcdc448dd2a0f6ad36d49424873d63b5db48fab616dd0eee75fd2ad7c0f0810da2ae9eb0e89eab5bd387a17ceb94060c39c72c6171f661de1abbe16fe",
+          "sha256": "73750f4b74d1f8b9a0eb40e72f64ed77b1ec102ee36140620f9372a68d844e4e",
+          "sha1": "f6cba2e8586da0f1f3f2ed6d8eb1f18565f20ab3",
+          "md5": "f12c11ffe7cd97e94e34c67927877e70"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera-lifecycle-1.1.0-alpha05.aar",
+          "url": "camera-lifecycle-1.1.0-alpha05.aar",
+          "size": 17267,
+          "sha512": "dddff99fcdc448dd2a0f6ad36d49424873d63b5db48fab616dd0eee75fd2ad7c0f0810da2ae9eb0e89eab5bd387a17ceb94060c39c72c6171f661de1abbe16fe",
+          "sha256": "73750f4b74d1f8b9a0eb40e72f64ed77b1ec102ee36140620f9372a68d844e4e",
+          "sha1": "f6cba2e8586da0f1f3f2ed6d8eb1f18565f20ab3",
+          "md5": "f12c11ffe7cd97e94e34c67927877e70"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "camera-lifecycle-1.1.0-alpha05-sources.jar",
+          "url": "camera-lifecycle-1.1.0-alpha05-sources.jar",
+          "size": 16786,
+          "sha512": "6c81abf1f875f20c5383b62700968f9bb5454cb802e9b96b73b0c869859f2ad94e59528c6811f4994f8947779ce2d3ab5cfa6f28d8962c2886d49d7778fea99e",
+          "sha256": "a0e4f85cb4bd46d48cb0d4311dabd77eca899064630bfc4b696f1ad07f2bccb0",
+          "sha1": "92025bb5b0b6402683ebc45df3a0e0c01a14ba28",
+          "md5": "908aaeef0c1909b6d8dbe2798273c651"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.window",
+    "module": "window-extensions",
+    "version": "1.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "window-extensions-1.0.0-alpha01.aar",
+          "url": "window-extensions-1.0.0-alpha01.aar",
+          "size": 7724,
+          "sha512": "ea2b72bd187c8070f0394fc34f12ad3cadad3dae64e3ae6f5f3dc7b572dae907a8aee37a94794a842c5e8a1e9f0c3859a3f68fc611c8fd1401c20c0d22664267",
+          "sha256": "6698a149077a9c58914b40782ccd1f73efa3eaababda9cca960e3e3a41075eea",
+          "sha1": "7896c45a031deff8170b0e337ffc47c6a550cd27",
+          "md5": "6ee943cc80cef6a1ea82d6780e093bf0"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "window-extensions-1.0.0-alpha01.aar",
+          "url": "window-extensions-1.0.0-alpha01.aar",
+          "size": 7724,
+          "sha512": "ea2b72bd187c8070f0394fc34f12ad3cadad3dae64e3ae6f5f3dc7b572dae907a8aee37a94794a842c5e8a1e9f0c3859a3f68fc611c8fd1401c20c0d22664267",
+          "sha256": "6698a149077a9c58914b40782ccd1f73efa3eaababda9cca960e3e3a41075eea",
+          "sha1": "7896c45a031deff8170b0e337ffc47c6a550cd27",
+          "md5": "6ee943cc80cef6a1ea82d6780e093bf0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "window-extensions-1.0.0-alpha01-sources.jar",
+          "url": "window-extensions-1.0.0-alpha01-sources.jar",
+          "size": 8112,
+          "sha512": "dafe96e4bd8ce3c7ee9e77113a04b7aa53a327c29ab9fae95d07e0d97e114c630f455e088ef16c3492e97ac82420a2bfd3495567c837690bd585a9dadf494f7b",
+          "sha256": "e0c8e25cdf302c98978d92db0d1bdf556f45b4121b7092e3e9f73348344e08c4",
+          "sha1": "6c5dd69a6553a62126bc13c07100e2af3fe931c8",
+          "md5": "e488700f900277a16f0606d738dc5450"
+        }
+      ]
+    }
+  ]
+}

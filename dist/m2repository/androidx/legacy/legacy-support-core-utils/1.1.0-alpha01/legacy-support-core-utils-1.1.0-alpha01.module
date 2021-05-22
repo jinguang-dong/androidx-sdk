@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.legacy",
+    "module": "legacy-support-core-utils",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.documentfile",
+          "module": "documentfile",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.print",
+          "module": "print",
+          "version": {
+            "requires": "1.1.0-beta01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-support-core-utils-1.1.0-alpha01.aar",
+          "url": "legacy-support-core-utils-1.1.0-alpha01.aar",
+          "size": 3534,
+          "sha512": "7221d84ed8b4c42703da38853882f416e8802753b66e4d7d32d6446d220eef81e6c772a9edc3b8f032ae126b458dc0e300437e28a033565e6da6d5f3f7c32223",
+          "sha256": "e10c9530bd5b55735e31a2b959d269a5f3614b03e771fe347d7eccbaed506e58",
+          "sha1": "652802eb890a7c2f6270c2cd3a06386f127b0200",
+          "md5": "6af62faee3c43a31f4eb6d67cb601237"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.documentfile",
+          "module": "documentfile",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.2.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.print",
+          "module": "print",
+          "version": {
+            "requires": "1.1.0-beta01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "legacy-support-core-utils-1.1.0-alpha01.aar",
+          "url": "legacy-support-core-utils-1.1.0-alpha01.aar",
+          "size": 3534,
+          "sha512": "7221d84ed8b4c42703da38853882f416e8802753b66e4d7d32d6446d220eef81e6c772a9edc3b8f032ae126b458dc0e300437e28a033565e6da6d5f3f7c32223",
+          "sha256": "e10c9530bd5b55735e31a2b959d269a5f3614b03e771fe347d7eccbaed506e58",
+          "sha1": "652802eb890a7c2f6270c2cd3a06386f127b0200",
+          "md5": "6af62faee3c43a31f4eb6d67cb601237"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "legacy-support-core-utils-1.1.0-alpha01-sources.jar",
+          "url": "legacy-support-core-utils-1.1.0-alpha01-sources.jar",
+          "size": 3237,
+          "sha512": "39171ea16b5d15b7d148c94a91b906b04ce27543e5bdf11bfcacdc71ce64642c9e3801411d0dd96285213d514318b9d45100d26d79626d62adbcccb04441558f",
+          "sha256": "6da731bec6eeefece5ea38d6c49f5bf15ad8845310ca7208c25f993feece8a9e",
+          "sha1": "474c265b21eeca0d29afa1c565a85429796f97b8",
+          "md5": "da973744d7893bae30659551020465f6"
+        }
+      ]
+    }
+  ]
+}

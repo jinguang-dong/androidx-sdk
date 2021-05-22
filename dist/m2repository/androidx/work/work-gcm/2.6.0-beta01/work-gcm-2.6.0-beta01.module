@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.work",
+    "module": "work-gcm",
+    "version": "2.6.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.6.0-beta01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "work-gcm-2.6.0-beta01.aar",
+          "url": "work-gcm-2.6.0-beta01.aar",
+          "size": 14514,
+          "sha512": "c5d240095c4d1be86e3170777af75515eb14c9b03f9b0d38c05d5ab2476d229fed856319886b2323cf744ac4fd4ad06b2d7d0f5a53fb760e4bbc2c77527b414b",
+          "sha256": "1c67c43d99b7869aeb758a3f0d93d96c43c7ae7fd7f8749d73cc787da89aaf07",
+          "sha1": "0590ffb211d45fd06dcf099c84a3f7fc8b0f4aa1",
+          "md5": "2e6e831fbbc64b0262f1ee1d6bc1dfd1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.6.0-beta01"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-gcm",
+          "version": {
+            "requires": "17.0.0"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "work-gcm-2.6.0-beta01.aar",
+          "url": "work-gcm-2.6.0-beta01.aar",
+          "size": 14514,
+          "sha512": "c5d240095c4d1be86e3170777af75515eb14c9b03f9b0d38c05d5ab2476d229fed856319886b2323cf744ac4fd4ad06b2d7d0f5a53fb760e4bbc2c77527b414b",
+          "sha256": "1c67c43d99b7869aeb758a3f0d93d96c43c7ae7fd7f8749d73cc787da89aaf07",
+          "sha1": "0590ffb211d45fd06dcf099c84a3f7fc8b0f4aa1",
+          "md5": "2e6e831fbbc64b0262f1ee1d6bc1dfd1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "work-gcm-2.6.0-beta01-sources.jar",
+          "url": "work-gcm-2.6.0-beta01-sources.jar",
+          "size": 8418,
+          "sha512": "9858e340597898fe8cc3b012a9bb0658e5f6fcd093a6f7b3eecd698c513a60b38c0eb90e4c5a0e414e114d55279bf81282c3a7b5fb0f19c546a763b3e0ca2ded",
+          "sha256": "ec797e2642f487e2db7bfbee8b1d8451cc6eeb5a8d5c777056b3e242fec4fad9",
+          "sha1": "9c244c92bf9ab31c7506abe521acd63a9b0c077c",
+          "md5": "0c98f2523d9b00a888205b3e863d5a9e"
+        }
+      ]
+    }
+  ]
+}

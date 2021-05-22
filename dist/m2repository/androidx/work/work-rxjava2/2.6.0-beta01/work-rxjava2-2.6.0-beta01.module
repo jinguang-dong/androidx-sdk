@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.work",
+    "module": "work-rxjava2",
+    "version": "2.6.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.6.0-beta01"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "work-rxjava2-2.6.0-beta01.aar",
+          "url": "work-rxjava2-2.6.0-beta01.aar",
+          "size": 4418,
+          "sha512": "75ae7ed5232aec340eb09334c3dbb04f28ba399b6e534da72fceeff69b2bbb01ab4e9cbfcaf04fbaaceca1bdaef085cb2ba8fba0a05c18b1e58ed6906b4e97c0",
+          "sha256": "25d4a92d514c9506143c351670f00a6f824057fb8f7f8b71a9fef56ae2e04119",
+          "sha1": "171b23b879d578765affc005c0981515e6b553b9",
+          "md5": "6f72fb9ffaa74e5aad7d5df361686e6c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.6.0-beta01"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "work-rxjava2-2.6.0-beta01.aar",
+          "url": "work-rxjava2-2.6.0-beta01.aar",
+          "size": 4418,
+          "sha512": "75ae7ed5232aec340eb09334c3dbb04f28ba399b6e534da72fceeff69b2bbb01ab4e9cbfcaf04fbaaceca1bdaef085cb2ba8fba0a05c18b1e58ed6906b4e97c0",
+          "sha256": "25d4a92d514c9506143c351670f00a6f824057fb8f7f8b71a9fef56ae2e04119",
+          "sha1": "171b23b879d578765affc005c0981515e6b553b9",
+          "md5": "6f72fb9ffaa74e5aad7d5df361686e6c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "work-rxjava2-2.6.0-beta01-sources.jar",
+          "url": "work-rxjava2-2.6.0-beta01-sources.jar",
+          "size": 2879,
+          "sha512": "f5289bf2824576dba9eeefbc19c27c156eca131d0797c466a6855cfb182decffd27cb5b9018fbb3f31ff19b4e9ca3f81f9082759e579c3a870823481c3b6057a",
+          "sha256": "9ba252935f7eba53d538130d985b5b01ecdc312edd15d64f6217687af20f80e8",
+          "sha1": "a25ecfdbb8e24e012897e0db2dd37b8f50108d50",
+          "md5": "f1b18077954c00d65632a28b79e86ba3"
+        }
+      ]
+    }
+  ]
+}

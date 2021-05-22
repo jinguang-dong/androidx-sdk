@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear-watchface-complications-rendering",
+    "version": "1.0.0-alpha15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-complications-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-complications-rendering-1.0.0-alpha15.aar",
+          "url": "wear-watchface-complications-rendering-1.0.0-alpha15.aar",
+          "size": 65527,
+          "sha512": "008758533729ac4647e3ea9ded9af76d40fac7794c91712615d1a789712145272bd662cfef71d349bb0d2341aeeca0b034c08be0b02fda62af3f359643a0dc75",
+          "sha256": "887a646369336cee23b68c8b3a251c32c4a1a31de37a6fecdd0bc6fde4c15b29",
+          "sha1": "b93057c428b760ab928f72dfcf356df2ab291c8e",
+          "md5": "e84eb8d7fa2391d1ae9014efe15b9a30"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-complications-data",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-watchface",
+          "version": {
+            "requires": "1.0.0-alpha15"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-watchface-complications-rendering-1.0.0-alpha15.aar",
+          "url": "wear-watchface-complications-rendering-1.0.0-alpha15.aar",
+          "size": 65527,
+          "sha512": "008758533729ac4647e3ea9ded9af76d40fac7794c91712615d1a789712145272bd662cfef71d349bb0d2341aeeca0b034c08be0b02fda62af3f359643a0dc75",
+          "sha256": "887a646369336cee23b68c8b3a251c32c4a1a31de37a6fecdd0bc6fde4c15b29",
+          "sha1": "b93057c428b760ab928f72dfcf356df2ab291c8e",
+          "md5": "e84eb8d7fa2391d1ae9014efe15b9a30"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-watchface-complications-rendering-1.0.0-alpha15-sources.jar",
+          "url": "wear-watchface-complications-rendering-1.0.0-alpha15-sources.jar",
+          "size": 44279,
+          "sha512": "8d0d399b44651241bb44ad27d04e8ea8fec03a09d9daee6cd220a21a3db633d4b498b040b87da5d5c137fc59ed3fcd692e102aa8a8f4cc3361dd0a2aa7c99646",
+          "sha256": "6db268dac70fcb72aa291d30c775c2665638bd434be6f5afb0528d11f115d0df",
+          "sha1": "89f40cbf3e9dbf9785d53bc5d47ed91c04424669",
+          "md5": "fb0d9de6e5c37bf8360970de7d63dbf0"
+        }
+      ]
+    }
+  ]
+}

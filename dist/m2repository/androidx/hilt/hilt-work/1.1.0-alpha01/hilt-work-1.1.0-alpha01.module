@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.hilt",
+    "module": "hilt-work",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.hilt",
+          "module": "hilt-common",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.3.4"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.35"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-work-1.1.0-alpha01.aar",
+          "url": "hilt-work-1.1.0-alpha01.aar",
+          "size": 5876,
+          "sha512": "abd0c20478640decdde9f6c67b10a6a2d46a442c07b7212cb05faed53eeb3ec5f4a47c81318e7fdd97c1f22590ea74a806e8f18fb247f728c0d140dd8d2ff605",
+          "sha256": "0be263cec533ae9aa759654827804df9442c6e43dcbb0f219f9a7ecec752abbd",
+          "sha1": "2a2248f2dea27144684fc7f8db0dde68f4465167",
+          "md5": "475df5d29a09d67f8c1e4c0237dd7232"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.hilt",
+          "module": "hilt-common",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.3.4"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.35"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hilt-work-1.1.0-alpha01.aar",
+          "url": "hilt-work-1.1.0-alpha01.aar",
+          "size": 5876,
+          "sha512": "abd0c20478640decdde9f6c67b10a6a2d46a442c07b7212cb05faed53eeb3ec5f4a47c81318e7fdd97c1f22590ea74a806e8f18fb247f728c0d140dd8d2ff605",
+          "sha256": "0be263cec533ae9aa759654827804df9442c6e43dcbb0f219f9a7ecec752abbd",
+          "sha1": "2a2248f2dea27144684fc7f8db0dde68f4465167",
+          "md5": "475df5d29a09d67f8c1e4c0237dd7232"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hilt-work-1.1.0-alpha01-sources.jar",
+          "url": "hilt-work-1.1.0-alpha01-sources.jar",
+          "size": 3289,
+          "sha512": "3b21ebb4839f1a9a805b78db7686f5b56c544aebab13ef12f58a9ac246fdd6b851ece775bf38cace7199ed306edaf4238ffe5ec84865e65287e0e86465a164d8",
+          "sha256": "05b7f08683f9a7ece547eceea15093ee1023c8daf2209090fb3eb169260605e6",
+          "sha1": "973afeaea0764ae756f013e5da6167ae0f707754",
+          "md5": "7598ce3ab3646a281c41344a155bef9b"
+        }
+      ]
+    }
+  ]
+}

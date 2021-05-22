@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-tooling",
+    "version": "1.0.0-beta08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-data",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooling-1.0.0-beta08.aar",
+          "url": "ui-tooling-1.0.0-beta08.aar",
+          "size": 90897,
+          "sha512": "86251dbfa111c0e74189a2f8b702fbee9a3698920b21b47ca4759626259821e5b66cc067693eb5db7e164a960be7262462b730b859486a81369521bf26b3d515",
+          "sha256": "4b74a18bbcf6abe2c984bcdbeb777d5024258ab97f0023d3a86620f390dd3599",
+          "sha1": "8d5092a7fcea39873461559060e88840dc84123a",
+          "md5": "893db11fdfa550dc8d83b0f5a74b6aa1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-data",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooling-1.0.0-beta08.aar",
+          "url": "ui-tooling-1.0.0-beta08.aar",
+          "size": 90897,
+          "sha512": "86251dbfa111c0e74189a2f8b702fbee9a3698920b21b47ca4759626259821e5b66cc067693eb5db7e164a960be7262462b730b859486a81369521bf26b3d515",
+          "sha256": "4b74a18bbcf6abe2c984bcdbeb777d5024258ab97f0023d3a86620f390dd3599",
+          "sha1": "8d5092a7fcea39873461559060e88840dc84123a",
+          "md5": "893db11fdfa550dc8d83b0f5a74b6aa1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-tooling-1.0.0-beta08-sources.jar",
+          "url": "ui-tooling-1.0.0-beta08-sources.jar",
+          "size": 26938,
+          "sha512": "a1166c8c5d4aaf4aaf219f5cc3f8037216415d51cdd636f298ed1ff290d4db0522f7154f8fb106a9b50f9d387a16b54ed1390044da1a7bf24574b4ea714c26c2",
+          "sha256": "a64c4c2d4599267139d7e25bdb2267ce2711d7f8431500a5cec0eb71fd24aa8f",
+          "sha1": "cdf238ffb0f958887ca8ef71d9925249b0749a14",
+          "md5": "142cf0d617f1b463e467932da4a86863"
+        }
+      ]
+    }
+  ]
+}

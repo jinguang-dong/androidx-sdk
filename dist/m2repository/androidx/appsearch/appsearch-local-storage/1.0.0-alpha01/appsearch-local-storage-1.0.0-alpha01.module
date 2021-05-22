@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.appsearch",
+    "module": "appsearch-local-storage",
+    "version": "1.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appsearch-local-storage-1.0.0-alpha01.aar",
+          "url": "appsearch-local-storage-1.0.0-alpha01.aar",
+          "size": 6494474,
+          "sha512": "b6736efb471ff6a9b2f9c5036818e8c906333e22ab718e7e1c28b7c408812e9f3298fcaa9b241daeec3854d0ab5f77a6eaeb04f92df426c1416796e2ed3c65a5",
+          "sha256": "085d6c43d2a6d205cbbd3c24ef74579cc39b103dd51651152664f176540fc230",
+          "sha1": "6e3a01836123277f4bd48f6735b8ca8b41c6dde4",
+          "md5": "4acc74d19c9de98c3decbee708bc1700"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appsearch",
+          "module": "appsearch",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.concurrent",
+          "module": "concurrent-futures",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appsearch-local-storage-1.0.0-alpha01.aar",
+          "url": "appsearch-local-storage-1.0.0-alpha01.aar",
+          "size": 6494474,
+          "sha512": "b6736efb471ff6a9b2f9c5036818e8c906333e22ab718e7e1c28b7c408812e9f3298fcaa9b241daeec3854d0ab5f77a6eaeb04f92df426c1416796e2ed3c65a5",
+          "sha256": "085d6c43d2a6d205cbbd3c24ef74579cc39b103dd51651152664f176540fc230",
+          "sha1": "6e3a01836123277f4bd48f6735b8ca8b41c6dde4",
+          "md5": "4acc74d19c9de98c3decbee708bc1700"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "appsearch-local-storage-1.0.0-alpha01-sources.jar",
+          "url": "appsearch-local-storage-1.0.0-alpha01-sources.jar",
+          "size": 30750,
+          "sha512": "adc3b24e7066bb20fdf038ee317622fd2ec22fbf58d9abdd14483c173c3ffc24ee0f910f5786754fb86991869748149414eb5296b9ac7ee4b881956394f39a0c",
+          "sha256": "1076dc950b488ed6de2984c0bf9eea996b3313d3d70037fe9a42732b84c10fe2",
+          "sha1": "b1b6cc9c0580ab908fa4948891e5c9796ae4acf1",
+          "md5": "9be35b2e2fc3bc97f0eb0232477d87c7"
+        }
+      ]
+    }
+  ]
+}

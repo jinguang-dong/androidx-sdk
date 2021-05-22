@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.contentpager",
+    "module": "contentpager",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contentpager-1.1.0-alpha01.aar",
+          "url": "contentpager-1.1.0-alpha01.aar",
+          "size": 20650,
+          "sha512": "009227e48b50ad25f91816f5702727f813e2fb927d34a99ba8b8afc1f4f32a9275155d761f428d6f878133832d536dad8812d38893fb6240bf4955c486be1795",
+          "sha256": "df8f6f3c5321e536f63febef02058badb045340d01edb256d413417fb85a9724",
+          "sha1": "ae2442c51f3367625a5306a6f4efbaa9a60f429f",
+          "md5": "354a981efba5177b9d41d93de66e6870"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "contentpager-1.1.0-alpha01.aar",
+          "url": "contentpager-1.1.0-alpha01.aar",
+          "size": 20650,
+          "sha512": "009227e48b50ad25f91816f5702727f813e2fb927d34a99ba8b8afc1f4f32a9275155d761f428d6f878133832d536dad8812d38893fb6240bf4955c486be1795",
+          "sha256": "df8f6f3c5321e536f63febef02058badb045340d01edb256d413417fb85a9724",
+          "sha1": "ae2442c51f3367625a5306a6f4efbaa9a60f429f",
+          "md5": "354a981efba5177b9d41d93de66e6870"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "contentpager-1.1.0-alpha01-sources.jar",
+          "url": "contentpager-1.1.0-alpha01-sources.jar",
+          "size": 15438,
+          "sha512": "977014c9ffb7ca998ed5b6f4e2119aed1078da4648353718eb9879716fb2a848d32abbdc8aa8215a8d9578ef7dcd9a3b51571bdfca09b76d570fb4251d71ca17",
+          "sha256": "e03a86af12248b229b4ecaa69b9364c9b0ad42419457d3e023f569d03bf09544",
+          "sha1": "ab34800f4471683a6376b10571f4ea7440a7a630",
+          "md5": "30510b1a1a204f90322f82a793197a5d"
+        }
+      ]
+    }
+  ]
+}
