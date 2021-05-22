@@ -1,0 +1,1 @@
+dist/top-of-tree-m2repository-all-0.zip filter=lfs diff=lfs merge=lfs -text
